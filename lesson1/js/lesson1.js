@@ -1,6 +1,7 @@
 /*-----current year-----*/
-const options = {year: 'numeric'};
-    document.getElementById('currentYear').textContent = new Date().toLocaleDateString('en-US', options);
+let y = new Date();
+document.getElementById("currentYear").innerHTML = y.getFullYear();
 
 /*-----last updated-----*/
-document.getElementById('lastupdated').innerHTML = document.lastModified
+let lu = document.lastModified;
+  document.getElementById("lastupdated").innerHTML = lu;
