@@ -1,0 +1,18 @@
+@media only screen and (min-width:51.25em) {
+  header, footer {
+    background-color: #1cb3c8;
+  }
+
+  section h2 {
+    background-color: #738598;
+  }
+  
+  section img {
+    width: 284px;
+    height: 450px;
+  }
+  
+  main {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
