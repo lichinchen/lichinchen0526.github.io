@@ -1,10 +1,12 @@
 @media only screen and (min-width:60em) {
   header, footer {
     background-color: #1cb3c8;
+    color:#000000;
   }
 
   section h2 {
     background-color: #4d606e;
+    color:#ffffff;
   }
   
   section img {
@@ -15,4 +17,7 @@
   main {
       grid-template-columns: 1fr 1fr 1fr;
     }
+  footer a {
+      color: #000000;
+  }
   }

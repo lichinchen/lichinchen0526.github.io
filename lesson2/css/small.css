@@ -7,7 +7,7 @@ header {
 }
 
 h1 {
-  font-family: 'Acme';
+  font-family:'Noto Serif', serif;
   font-size: 2em;
   margin: 0;
 }
@@ -16,7 +16,7 @@ h2 {
   font-size: 1.3em;
   margin:0;
   padding:5px;
-  font-family: 'Acme';
+  font-family: 'Noto Serif', serif;
 }
 
 
@@ -30,12 +30,11 @@ footer{
   color:#ffffff;
   text-align: center;
   padding:10px;
-  font-weight:bold ;
 }
 
 main,
 footer {
-  font-family: 'Dosis';
+  font-family: 'Lato', sans-serif;
 }
 
 footer a {
@@ -43,7 +42,7 @@ footer a {
   text-decoration: none;
 }
 footer a:hover {
-  color:#e94560;
+  color:#ffffff;
 }
 
 main {
@@ -77,18 +76,18 @@ section img {
 }
 
 section a {
-  color: #1e555c; 
+  color: #4d606e; 
   margin-top:10px; 
   font-size:1.3rem;
   text-decoration: none;
 }
 
 section a:hover{
-  color:#e94560;
+  color:#ff1e56;
 }
 section p {
   padding:10px;
-  color: #1e555c;
+  color: #4d606e;
   font-size:20px;
 }
 
