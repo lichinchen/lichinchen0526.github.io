@@ -1,0 +1,30 @@
+@media only screen and (min-width:32.5em){
+header img{
+    width:60px;
+    height:50%; 
+}
+
+.headings h1 {
+    font-size: 3rem;
+}
+
+.motto{
+    font-size:18px;
+}
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    text-align: center;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+}

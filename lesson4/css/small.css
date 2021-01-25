@@ -1,0 +1,152 @@
+body {
+    font-size:18px;
+}
+
+main{
+    background-color:#d6e4f0;
+    padding:10px;
+
+}
+/*
+.weatherhead{
+    display:flex;
+    flex-direction:column;
+}*/
+header img{
+    width:40px;
+    height:50%; 
+    margin-top: 25px;
+}
+header, footer {
+    background-color:#444f5a;
+    color:#ffffff;
+    text-align: center;
+    padding:10px;
+    display:flex;
+    justify-content:center; 
+}
+footer{
+    font-size:16px;
+}
+
+
+h1, h2 {
+    font-family:"Hachi Maru Pop";
+}
+
+h1{
+    font-size:1.5em;
+    text-align: left;
+    margin-left:15px;
+}
+.motto{
+    font-size:16px;
+    text-align: left;
+    margin-left:15px;
+}
+main, footer {
+    font-family:"Open Sans";
+}
+ 
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+ }
+
+footer a:hover{
+    font-weight:bold;
+}
+
+header, main, footer, nav {
+    max-width: 960px;
+    margin: auto;
+}
+ 
+nav{
+    background-color:#c0c5cd;
+    text-align:center;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:15px;
+    font-size:20px;
+}
+
+
+nav ul li a {
+    display:block;
+    color:#444f5a;
+    text-align:center;
+    padding:10px;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:#ffffff;
+    color:#444f5a;
+    font-weight:bold;
+    border: #0092ca dashed 1px;
+}
+.active {
+    color:#444f5a;
+    background-color:#ffffff;
+}
+
+h2 {
+    color: #444f5a;
+    padding:0.5em;
+    text-align: center;
+}
+
+p{
+    font-family:"Open Sans";
+}
+
+
+
+.navigation{
+    list-style:none;
+    padding:0;
+}
+
+.navigation li{
+    display:none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation a{
+    display:block;
+    padding:0.9rem;
+    text-align:center;
+    text-decoration:none;
+    font-family:"Open Sans";
+    color:#444f5a;
+}
+
+.navigation a:hover{
+    color:#444f5a;
+    background-color:#ffffff;
+}
+
+
+
+.contentbox{
+    display:block;
+    margin:10px auto;
+    border: #444f5a dashed 1px;
+    padding:15px;
+    background-color: #c0c5cd;
+    font-family:"Open Sans";
+}
+
+.responsive li {
+
+    display:block;
+}
+
+
