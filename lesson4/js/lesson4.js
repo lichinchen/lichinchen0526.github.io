@@ -4,7 +4,7 @@ function toggleMenu() {
 }
 
 
-function toggleMenuReSize(){
+function toggleMenuRemove(){
   document.getElementsByClassName("navigation")[0].classList.remove("responsive");
 }
 
