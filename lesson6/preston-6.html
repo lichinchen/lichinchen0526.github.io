@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W06 Assignment: Responsive Images and Font</title>
+<meta name="description" content="Assignment: Responsive Images and Font">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">  
+</head>   
+<body>
+    <div>
+        <p class="onlyFri"><span style='font-size:50px;'>&#127749;</span>Saturday = Preston Pancakes in the Park! 9:00 a.m. at the city partk paviilion.</p> 
+    </div>
+    <header>
+        <img src="images/fishingweathericon.jpg" alt="Weather Logo">
+        <section class="weatherhead">
+            <h1>Fishing Weather</h1>
+            <p class="motto">Weather Where You Fish.</p>
+        </section>
+       
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#"> &#127968;Home</a></li>
+            <li><a class="active" href="preston-6.html"> &#127966; Preston </a></li>
+            <li><a href="#"> &#127956; Soda Springs</a></li>
+            <li><a href="#"> &#128031; Fish Haven</a></li>
+            <li><a href="#"> &#128657; Storm Center</a></li>
+            <li><a href="#"> &#128248; Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2> Preston Idaho</h2>
+        <div class="hero-container">
+        <picture>
+          <source media="(max-width: 400px)" srcset="images/fishingnet400.jpg">
+          <source media="(max-width: 600px)" srcset="images/fishingnet600.jpg">
+          <source media="(max-width: 960px)" srcset="images/fishingnet960.jpg">
+          <img class="hero-img" src="images/fishingnet960.jpg" alt="main image">
+        </picture>
+        <div class="weather-summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: Sunny</p>          
+          <p>Temperature: <span id="curTemp">35</span> &#8457;</p>
+          <p>High: 38 &#8457;</p>          
+          <p>Wind Chill: <span id="windChill"></span> &#8457;</p>
+          <p>Humidity: 20%</p>          
+          <p>Wind Speed: <span id="windSpeed">5</span> mph</p>          
+        </div>
+      </div>
+      <div class="forecast_container">
+          <h3>Five Day Forecast</h3>
+          <div class="forecastbox">
+            <div class="forecast">
+                <div id="day1"></div>
+                <img class="icon" src="images/sun.jpg" alt="sun icon">
+                <div class= "temp">36°F</div>
+            </div>
+            <div class="forecast">
+                <div id="day2"></div>
+                <img class="icon" src="images/cloudy.jpg" alt="cloudy icon">
+                <div class= "temp">30°F</div>
+            </div>
+            <div class="forecast">
+                <div id="day3"></div>
+                <img class="icon" src="images/snow.jpg" alt="snow icon">
+                <div class= "temp">25°F</div>
+            </div>
+            <div class="forecast">
+                <div id="day4"></div>
+                <img class="icon" src="images/rain.jpg" alt="rain icon">
+                <div class= "temp">31°F</div>
+            </div>
+            <div class="forecast">
+                <div id="day5"></div>
+                <img class="icon" src="images/windy.jpg" alt="windy icon">
+                <div class= "temp">34°F</div>
+            </div>
+        </div>
+      </div>
+      <article>
+        <img src="images/fishing2.jpg" alt="buoy">
+        <h3>Article Title</h3>
+        <p>Author</p>
+        <p class="article-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis mollis hendrerit. 
+            Donec auctor commodo magna, eget varius dui eleifend at. Quisque tellus ex, tempus vel auctor non, 
+            laoreet sed sem. Duis vel justo placerat, ultricies tellus vitae, aliquet leo. Aenean eu pharetra nisl. 
+            Aliquam sed tristique lorem, sit amet fringilla ipsum. Proin lacus massa, tempus et porttitor et, vehicula et orci.
+            Vivamus at bibendum lorem. Mauris rutrum tincidunt turpis vel hendrerit. Nam congue pulvinar libero. 
+            Nam vitae elit eget lacus lacinia vestibulum et id felis. In ac ligula quis nisi interdum molestie. 
+            Curabitur aliquet mi eget bibendum placerat. Nunc non tellus non est facilisis laoreet ac vitae sapien. 
+            Donec lobortis purus massa, vel tempus nisi efficitur at. Phasellus tortor risus, imperdiet ut libero a, 
+            venenatis pharetra diam. Sed placerat condimentum volutpat. Suspendisse interdum at felis a dapibus. 
+            Ut vitae fermentum felis, vehicula porta metus. Sed placerat condimentum volutpat. Suspendisse interdum at felis 
+            a dapibus. Ut vitae fermentum felis, vehicula porta metus.</p>
+        </article>
+    </main>
+    <footer>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h4>&#127757; Contact Information</h4>
+                <p>&#128103; Li Chin Chen</p>
+                <p>&#128140; 333preston@email.com</p>
+                <p>&#128222; 333-333-3333</p>
+                <p>&#128235; 333 Preston St. Preston, ID</p>
+                <div class="social-media">
+                    <a href="http://www.facebook.com" target="_blank"><img class="social-icons" src="images/facebook.png" alt="Facebook icon"></a>
+                    <a href="http://www.instagram.com" target="_blank"><img class="social-icons" src="images/instagram.png" alt="Instagram icon"></a>
+                    <a href="http://www.twitter.com" target="_blank"><img class="social-icons" src="images/twitter.png" alt="Twitter icon"></a>
+                    <a href="http://www.whatsapp.com" target="_blank"><img class="social-icons" src="images/whatsapp.png" alt="WhatsApp icon"></a>
+                    <a href="http://www.pinterest.com" target="_blank"><img class="social-icons" src="images/pinterest.png" alt="Pinterest icon"></a>
+                </div>
+            </div>
+            <div class="map">
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477162.8598707267!2d-111.73498111887461!3d42.13350395839597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1605405945809!5m2!1sen!2sus" width="450" height="275"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bar">
+            <p>&copy; <span id="currentYear"></span> Fishing Weather | Attributions | <a href="../lesson1/index.html">Li Chin Chen</a> | <span id="currentday"></span></p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/lesson6.js"></script>
+</body>
+</html>
+
