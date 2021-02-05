@@ -237,10 +237,6 @@ header, nav {
     color:#444f5a;
 }
 
-article {
-    border:#444f5a;  
-}
-
 article div, article h3, article p {
     color: #444f5a;
     padding: 0 0 10px 0;
@@ -321,4 +317,5 @@ footer {
 .contact-info{
     background-color: #c0c5cd;
 }
+
 
