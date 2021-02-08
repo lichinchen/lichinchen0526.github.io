@@ -24,12 +24,24 @@ if (date.getDay()==5){
 
 /*-----Current weekday-----*/
 var d = new Date();
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-document.getElementById("day1").innerHTML = days[d.getDay()];
-document.getElementById("day2").innerHTML = days[d.getDay()+1];
-document.getElementById("day3").innerHTML = days[d.getDay()+2];
-document.getElementById("day4").innerHTML = days[d.getDay()+3];
-document.getElementById("day5").innerHTML = days[d.getDay()+4];
+  var weekday = new Array(7);
+        weekday[0] = "Sunday";
+        weekday[1] = "Monday";
+        weekday[2] = "Tuesday";
+        weekday[3] = "Wednesday";
+        weekday[4] = "Thursday";
+        weekday[5] = "Friday";
+        weekday[6] = "Saturday";
+  
+  for (i = 0; i < 29; i++) {
+    document.getElementById("day1").innerHTML = weekday[(d.getDay()+1 + i) % 7];
+    document.getElementById("day2").innerHTML = weekday[(d.getDay()+2 + i) % 7];
+    document.getElementById("day3").innerHTML = weekday[(d.getDay()+3 + i) % 7];
+    document.getElementById("day4").innerHTML = weekday[(d.getDay()+4 + i) % 7];
+    document.getElementById("day5").innerHTML = weekday[(d.getDay()+5 + i) % 7];
+
+  }
+    
 
 /*-----web font-----*/
 WebFont.load({google: {families: ['Open Sans', 'Hachi Maru Pop', ]}});
