@@ -3,14 +3,15 @@ body {
     margin: 0 auto;
   }
 h1 {
-    font-family:"Secular one";
+    font-family:"Hachi Maru Pop";
     padding: 1rem;
-    color:#004e64;
+    color:#444f5a;
     text-align: center;}  
 
 main {
     display: grid;
     grid-template-columns: 1fr;
+    row-gap:15px;
     justify-items: center;
   }
 img[data-src] {
@@ -20,8 +21,7 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 0.5s;
-    border:1px solid #004e64;
-    padding: 2px;
     justify-content:center;
+    box-shadow: 5px 5px 10px;
   }
   
