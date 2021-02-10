@@ -1,11 +1,13 @@
 body {
     max-width: 960px;
     margin: 0 auto;
+    background-color: #c0c5cd;
   }
 h1 {
     font-family:"Hachi Maru Pop";
+    background-color:#444f5a;
     padding: 1rem;
-    color:#444f5a;
+    color:#ffffff;
     text-align: center;}  
 
 main {
