@@ -18,7 +18,7 @@ document.getElementById('currentday').textContent = new Date().toLocaleDateStrin
 /*-----banner-----*/
 let date = new Date();
 date.getDay()
-if (date.getDay()==5){
+if (date.getDay()==3){
     document.querySelector(".onlyFri").style.display="block" 
 }
 
