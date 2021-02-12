@@ -1,0 +1,56 @@
+@media only screen and (min-width: 45rem) {
+    header img{
+        width:60px;
+        height:60%; 
+        margin-top: 10px;
+    }
+    
+    .headings h1 {
+        font-size: 3rem;
+    }
+    h2{
+        font-size:2rem;
+    }    
+    .motto{
+        font-size:18px;
+    }
+    .navigation {
+        display: flex;
+    }
+    
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    
+    .navigation a {
+        text-align: center;
+    }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+    
+    nav ul{
+        font-size:20px;
+    }
+
+    .footer-bar {
+        font-size:16px;
+    }   
+    .onlyFri{
+        font-size:20px;
+        font-weight: bold;
+    }
+    
+    .weather_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    main figcaption {
+        display: block;  
+    }
+
+   
+}
