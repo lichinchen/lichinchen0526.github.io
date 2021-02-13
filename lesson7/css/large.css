@@ -1,11 +1,15 @@
-@media only screen and (min-width: 68rem) {
+@media only screen and (min-width: 62.5rem) {
 h1{font-size:3rem;}
+header img{
+    width:60px;
+    height:60%; 
+    margin-top: 20px;
+}
 img {
     height: auto;
     }
 .weather_container{
     grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
     }
 .weather_container img{
     box-shadow: 5px 5px 10px;
