@@ -31,3 +31,10 @@ if('IntersectionObserver' in window) {
 
 /*-----web font-----*/
 WebFont.load({google: {families: ['Open Sans', 'Hachi Maru Pop', ]}});
+
+/*-----current year-----*/
+let y = new Date();
+document.getElementById("currentYear").innerHTML = y.getFullYear();
+/*-----Current date-----*/
+const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
+document.getElementById('currentday').textContent = new Date().toLocaleDateString('en-US', options);

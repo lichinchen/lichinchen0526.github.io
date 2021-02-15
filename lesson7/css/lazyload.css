@@ -26,4 +26,35 @@ img {
     justify-content:center;
     box-shadow: 5px 5px 10px;
   }
-  
+
+footer {
+    margin-top: 20px;
+    background-color:#c0c5cd;
+    color: #444f5a;
+    padding: 0;
+    text-align: center;
+    font-family:"Open Sans";
+}
+
+
+.footer-bar p {
+    margin: 0;
+    padding: 10px;
+}
+
+.footer-bar {
+    padding: 10px 0;
+    background-color: #444f5a; 
+    color:#ffffff;  
+    text-align: center;
+    font-family:"Open Sans"; 
+    font-size:20px;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover{
+  font-weight:bold;
+}
