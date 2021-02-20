@@ -1,0 +1,25 @@
+@media only screen and (min-width: 60rem) {
+    h1{font-size:3rem;}
+    header img{
+        width:60px;
+        height:60%; 
+        margin-top: 20px;
+    }
+    img {
+        height: auto;
+        }
+    .weather_container{
+        grid-template-columns: repeat(3, 1fr);
+        }
+    .weather_container img{
+        box-shadow: 5px 5px 10px;
+        }
+        
+    .weather_container figure:hover {
+        box-shadow: 5px 5px 20px;
+        }
+    
+    form {
+        max-width: 500px;
+      }
+    }
