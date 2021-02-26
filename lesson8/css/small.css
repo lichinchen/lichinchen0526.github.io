@@ -439,9 +439,9 @@ form label.severity {
 }
 
 .value {
-    color: #0092ca;
+    color: #444f5a;
     font-weight: bold;
-    width: 50%;
+    font-size:16px;
     text-align: right;
 }
 
