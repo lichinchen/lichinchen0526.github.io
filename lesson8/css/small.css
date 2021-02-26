@@ -383,7 +383,7 @@ form fieldset {
     margin: 2rem 0;
     border: 1px solid #444f5a;
     border-radius: 10px;
-    padding: 0.5rem 10%;
+    padding: 1rem 10%;
     background-color:#ffffff;  
 
 }
@@ -394,14 +394,17 @@ form legend {
     margin: 0 1rem;
     padding: 0 .5rem; 
     text-align: center;  
+    font-weight:bold;
 }
 
 
 form label.top, form div {
     display: block;
     margin-bottom: 20px;
+    margin-top:10px;
     color: #444f5a;
     font-size: 1rem;
+    
 }
 
 
@@ -422,20 +425,21 @@ form label.top input, form label.top select, form label.top textarea {
 
 form label.severity {
     display: block;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom:1rem;
     color: #444f5a;
     font-size: 1rem;
-    max-width: 20rem;
+    max-width: 30rem;
 }
 
 
-.storm-severity-label-text {
+.storm-severity {
     width: 50%;
     text-align: left;
 }
 
-.storm-severity-value {
-    color: #444f5a;
+.value {
+    color: #0092ca;
     font-weight: bold;
     width: 50%;
     text-align: right;
@@ -464,15 +468,18 @@ form label.label-storm-region select {
     font-size: 2rem;    
 }
 
+.danger{
+    margin-bottom: 5px;
+}
 form label.sbs {
     display: block;
-    padding: 0.75rem 0;
+    padding: 5px;
     color: #444f5a;
 }
 
 
 form textarea {
-    height: 6rem;
+    height: 10rem;
 }
 
 form input.submitButton {
