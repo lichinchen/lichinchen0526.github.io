@@ -1,0 +1,52 @@
+table {
+    max-width:960px;
+    height:100%;
+    box-shadow:10px 10px 10px #628ca6;
+    margin: 30px auto;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+    font-size:1.5rem;
+}
+
+
+thead th {
+    background-color: #7fb9c2;
+    font-size: 1.8em;
+    padding:10px 70px;
+}
+
+tbody th {
+    background-color: #628ca6;
+    color: white;
+    padding:10px;
+    font-size:1.6rem;
+}
+
+.color {
+    background-color: #628ca6;
+    color: white;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: #e7ffed;
+    font-size:1.5rem;
+}
+tbody tr {
+    background-color: #e7f0ed;
+    font-size:1.5rem;
+}
+
+table tr, td, th {
+    text-align: center;
+    border: solid 2px #ccc;
+    padding: 10px;
+}
+
+tfoot {
+    background-color: #7fb9c2;
+    font-size: 1.2rem;
+    padding:10px;
+}
+
+
+
+
