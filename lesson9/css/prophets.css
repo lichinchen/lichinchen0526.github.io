@@ -1,4 +1,3 @@
-
 h1 {
     font-family: 'Acme', sans-serif;
     text-align: center;
@@ -49,14 +48,14 @@ footer {
    color:#ffffff;
 }
 
-@media only screen and (min-width: 37.5rem) {
+@media only screen and (min-width: 32rem) {
 .cards {
         grid-template-columns: 1fr 1fr;
         max-width:600px;
     }
 }
 
-@media only screen and (min-width: 56rem) {
+@media only screen and (min-width: 47rem) {
     .cards {
             grid-template-columns: repeat(3, 1fr);
             max-width:900px;
@@ -64,10 +63,10 @@ footer {
         }
     }
 
-@media only screen and (min-width: 78rem) {
+@media only screen and (min-width: 75rem) {
 .cards {
         grid-template-columns: repeat(4, 1fr);
-        max-width:1300px;
+        max-width:1200px;
         margin:auto;
     }
 }
