@@ -567,6 +567,7 @@ section ul{
     }
 .whereToGo a{
       color:red;
+      text-decoration: none;
 }
 
 .pushpin{
