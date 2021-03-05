@@ -91,14 +91,17 @@
 }
 
 .rod{
-  width:100%;
+  width:80%;
   height:300px;
   box-shadow: 5px 5px 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .whereToGo{
   position: absolute;
   top: 130px;
-  right: 50px;
+  right: 140px;
   background: radial-gradient(#ffffff, #d6e4f0);
   padding: 15px;
   box-shadow: 5px 5px 10px #444f5a;
