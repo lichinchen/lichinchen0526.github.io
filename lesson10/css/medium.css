@@ -167,9 +167,9 @@
 
 .weather-summary {
     position: absolute;
-    top: 30px;
+    bottom: 30px;
     left: 25px;
-    background: radial-gradient(#d6e4f0, #ffffff, #d6e4f0);
+    background: radial-gradient(#ffffff, #d6e4f0, #ffffff);
     border-radius: 10px 10px 10px 10px;
     padding: 1rem;
     box-shadow: 10px 20px 30px #444f5a;

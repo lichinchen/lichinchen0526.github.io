@@ -596,7 +596,7 @@ section ul{
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    color:#0092ca;
+    color:#444f5a;
 }
 
 
@@ -633,11 +633,11 @@ section ul{
 }
 
 .forecast_container h3{
-    color: #0092ca;
+    color: #444f5a;
     padding:0.5em;
     text-align: center;
     font-size:2em;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 3px 3px 3px #c0c5cd;
 }
 
 .fishingMap{
@@ -649,9 +649,9 @@ section ul{
     padding:15px;
 }
 .fishingMap h3{
-    color: #0092ca;
-    font-weight:bold;
-    font-size:20px;
+    color: #444f5a;
+    font-size:1.5em;
+    text-shadow: 3px 3px 3px #c0c5cd;
 }
 .fishingMap img{
     width:80%;
