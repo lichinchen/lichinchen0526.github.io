@@ -155,12 +155,6 @@
     flex-direction: column;
 }
 
-
-
-.forecast{
-    text-align:center;
-    padding:0.5rem;
-}
 .hero-container {
     position: relative;
 }

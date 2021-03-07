@@ -32,6 +32,8 @@ var month = new Array();
       month[10] = "11";
       month[11] = "12";
 
+      
+
 
 forecastapi.forEach(data => {
   let d = new Date(data.dt_txt); 
@@ -41,7 +43,7 @@ forecastapi.forEach(data => {
 document.getElementById(`day${n+1}`).textContent = weekday[d.getDay()];
 document.getElementById(`date${n+1}`).textContent = month[d.getMonth()]+"/"+d.getDate();
 document.getElementById(`temp${n+1}`).textContent = data.main.temp.toFixed(0) + `°F`;
-document.getElementById(`desc${n+1}`).textContent = (data.weather[0].description);
+/*document.getElementById(`desc${n+1}`).textContent = (data.weather[0].description);*/
 document.getElementById(`icon${n+1}`).setAttribute('src', imageURL);
 document.getElementById(`icon${n+1}`).setAttribute('alt', weather);
 n++;
