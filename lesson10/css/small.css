@@ -646,9 +646,10 @@ h4{
     font-size: 1.2rem;
 }
 #icon1, #icon2, #icon3, #icon4, #icon5 {
-    padding:1rem;
-    
+    padding:0.25rem;  
+    width:60%; 
 }
+
 #temp1, #temp2, #temp3, #temp4, #temp5 {
     display: block;
     padding: 0 5px 5px;
