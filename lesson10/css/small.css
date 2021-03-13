@@ -564,6 +564,7 @@ section ul{
     padding-bottom: 1em;
     text-align: center;
     color:#444f5a;
+    font-size:1.5rem;
 }
 
 
@@ -603,7 +604,7 @@ section ul{
     color: #444f5a;
     padding:0.5em;
     text-align: center;
-    font-size:2em;
+    font-size:1.5em;
     text-shadow: 3px 3px 3px #c0c5cd;
 }
 
@@ -617,7 +618,7 @@ section ul{
 }
 .fishingMap h3{
     color: #444f5a;
-    font-size:1.5em;
+    font-size:0.9em;
     text-shadow: 3px 3px 3px #c0c5cd;
 }
 .fishingMap img{

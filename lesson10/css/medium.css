@@ -161,7 +161,7 @@
 
 .weather-summary {
     position: absolute;
-    bottom: 30px;
+    top: 30px;
     left: 25px;
     background: radial-gradient(#ffffff, #d6e4f0, #ffffff);
     border-radius: 10px 10px 10px 10px;
@@ -190,8 +190,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.fishingMap h3{font-size:1.2em;}
 #icon1, #icon2, #icon3, #icon4, #icon5 {
     width:65%;
   }
+
+.town{font-size:2em;}
+
+.forecast_container h3{font-size:2em;}
 }
