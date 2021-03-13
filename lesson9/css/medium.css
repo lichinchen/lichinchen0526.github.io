@@ -65,16 +65,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    main figcaption {
-        display: block;  
-    }
-
-   
-
     
-    form {
-        max-width: 400px;
-      }
 
    
 /*----------- Home Page --------------*/
@@ -143,13 +134,5 @@
 .tips{
   padding:30px;
 }
-
-.whereToGo a{
-    color:red;
-}
-
-
-
-
 
     }

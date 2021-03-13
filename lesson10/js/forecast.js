@@ -43,7 +43,6 @@ forecastapi.forEach(data => {
 document.getElementById(`day${n+1}`).textContent = weekday[d.getDay()];
 document.getElementById(`date${n+1}`).textContent = month[d.getMonth()]+"/"+d.getDate();
 document.getElementById(`temp${n+1}`).textContent = data.main.temp.toFixed(0) + `°F`;
-/*document.getElementById(`desc${n+1}`).textContent = (data.weather[0].description);*/
 document.getElementById(`icon${n+1}`).setAttribute('src', imageURL);
 document.getElementById(`icon${n+1}`).setAttribute('alt', weather);
 n++;
