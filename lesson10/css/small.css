@@ -493,7 +493,6 @@ main h2 {
     padding: 20px;
     width: 360px;
     height:500px;
-    /*border-radius: 5px;*/
     box-shadow: 0 0 10px #444f5a;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -547,9 +546,7 @@ section ul{
       background: radial-gradient(#ffffff, #0092ca);
       padding:20px;
     }
-.whereToGo a{
-      color:red;
-}
+
 
 .pushpin{
     font-size:30px;
@@ -557,7 +554,6 @@ section ul{
 
 /*-----------Preston-10-----------------*/
 .town{
-    /*background: radial-gradient(#ffffff, #444f5a);*/
     max-width: 960px;
     margin: 0 auto;
     padding-top: 1em;
@@ -576,7 +572,6 @@ section ul{
     padding: 10px 0;
     font-family:"Open Sans";
     color:#444f5a;
-    /*font-weight: bold;*/
  }
  .weather-summary h3 {
     padding: 5px;
@@ -666,12 +661,9 @@ h4{
     padding:5px;
 }
 #desc1, #desc2, #desc3, #desc4, #desc5{
-    /*background-color:#444f5a;*/
     color:#444f5a;
     font-size:16px;
     padding:5px;
     font-weight:bold;
-    /*width:170px;
-    height:22px;*/
     justify-items: center;
 }

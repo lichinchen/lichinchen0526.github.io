@@ -5,7 +5,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        //console.log(jsObject);
         document.getElementById('curCon').textContent = jsObject.weather[0].main;
         document.getElementById('curTemp').textContent = jsObject.main.temp;
         document.getElementById('hiTemp').textContent = jsObject.main.temp_max;

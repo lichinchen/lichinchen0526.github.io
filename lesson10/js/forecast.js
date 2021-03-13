@@ -3,10 +3,10 @@ const forecastapi = "https://api.openweathermap.org/data/2.5/forecast?id=5604473
 fetch(forecastapi)
 .then((response) => response.json())
 .then((jsObject) => {
-  console.log(jsObject);
+  //console.log(jsObject);
 
 let forecastapi = jsObject.list.filter(data => data.dt_txt.includes('18:00:00'));
-console.log(forecastapi);
+//console.log(forecastapi);
 
 let n = "";
 
