@@ -4,18 +4,18 @@ function toggleMenu() {
   }
   
   
-  function toggleMenuRemove(){
+function toggleMenuRemove(){
   document.getElementsByClassName("navigation")[0].classList.remove("responsive");
   }
   
-  /*-----current year-----*/
+/*-----current year-----*/
   let y = new Date();
   document.getElementById("currentYear").innerHTML = y.getFullYear();
   /*-----Current date-----*/
   const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
   document.getElementById('currentday').textContent = new Date().toLocaleDateString('en-US', options);
   
-  /*-----banner-----*/
+/*-----banner-----*/
   let date = new Date();
   date.getDay()
   if (date.getDay()==5){
