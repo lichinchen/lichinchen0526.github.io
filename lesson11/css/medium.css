@@ -161,6 +161,9 @@
     grid-column: 2/3; 
     text-align: left;
 }
+.whereToGo ul{
+    list-style-type:square;;
+}
 
  /*----------API-----------*/
 .forecast_container {
