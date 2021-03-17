@@ -203,12 +203,13 @@ header, nav {
     font-size:20px;
     padding:10px;
     border:none;
+    margin-bottom: 0px;
 }
 
 .forecastbox {
     display: flex;
     flex-flow: wrap;
-    margin: 0 auto;
+    margin-bottom:30px;
     width:100%;
     border: 1px solid #444f5a;
     background-color:#ffffff;
@@ -589,14 +590,14 @@ main h2 {
 
 /*-----------Preston-10-----------------*/
 .town{
-    /*background: radial-gradient(#ffffff, #444f5a);*/
     max-width: 960px;
     margin: 0 auto;
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    color:#0092ca;
-}
+    color:#444f5a;
+    font-size:1.5rem;}
+
 
 
 /*----------weather-summary---------*/
@@ -628,17 +629,27 @@ main h2 {
     padding:0.5rem;
 }
 
+
 #icon1, #icon2, #icon3, #icon4, #icon5 {
     width:60%;
   }
 .forecast_container h3{
-    color: #0092ca;
+    color:#444f5a;
     padding:0.5em;
     text-align: center;
-    font-size:2em;
-    text-shadow: 2px 2px 2px #000000;
+    font-size:1.5em;
+    text-shadow: 1px 1px 1px #0092ca;
 }
-
+.whereToGo2{
+    font-size:20px;
+    max-width:960px;
+    text-align:center;
+    padding:15px;
+    border-bottom-style:none;
+    margin:auto;
+    color:#444f5a;
+    text-shadow: 1px 1px 1px #0092ca;
+  }
 .fishingMap{
     max-width:960px;
     display: grid;
@@ -647,11 +658,7 @@ main h2 {
     gap: 10px;
     padding:15px;
 }
-.fishingMap h3{
-    color: #0092ca;
-    font-weight:bold;
-    font-size:20px;
-}
+
 .fishingMap img{
     width:80%;
     padding:10px;

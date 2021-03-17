@@ -164,14 +164,20 @@
 .whereToGo ul{
     list-style-type:square;;
 }
+.whereToGo2{
+    font-size:25px;
+  }
 
  /*----------API-----------*/
+.town{font-size:2em;}
 .forecast_container {
     max-width: 960px;
     margin: 0 auto;
     flex-direction: column;
 }
-
+.forecast_container h3{
+    font-size:2.5rem;
+}
 .forecast{
     text-align:center;
     padding:0.5rem;
@@ -196,9 +202,7 @@
     color:#444f5a;
 }
 
-.fishingMap h3{
-    font-size:25px;
-}
+
 .fishingMap{
     display: grid;
     grid-template-columns: 1fr 1fr;
