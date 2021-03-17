@@ -5,6 +5,10 @@
       height:60%; 
       margin-top: 20px;
   }
+  header img:hover{
+    width:70px;
+    height:70%;
+}
   img {
       height: auto;
       }
@@ -87,32 +91,51 @@
         
 }
 .tips{
+  display:block;
   position: relative;
+  max-width:960px;
+  margin:auto;
 }
 
 .rod{
   width:100%;
   height:300px;
   box-shadow: 5px 5px 10px;
+  border-radius: 20px 20px 20px 20px;
 }
 .whereToGo{
   position: absolute;
-  top: 130px;
+  top: 15px;
   right: 50px;
   background: radial-gradient(#ffffff, #d6e4f0);
-  padding: 15px;
+  padding: 15px 50px 15px 50px;
   box-shadow: 5px 5px 10px #444f5a;
   opacity: .8;
   border-radius: 10px 10px 10px 10px;
-  font-size:15px;
+  font-size:18px;
   font-weight:bold;
+  text-align: left;
+}
+.whereToGo2{
+  font-size:25px;
+  max-width:920px;
+  text-align:center;
+  padding:15px;
+  border-bottom-style:none;
+  margin:auto;
+  color:#444f5a;
+  text-shadow: 1px 1px 1px #0092ca;
 }
 
 .contact-container{
   padding: 10px 20px 0 20px;
 }
-.whereToGo a{
+.whereToGo li a{
   color:#0092ca;
+}
+.whereToGo a:hover{
+  font-size:20px;
+  color:#444f5a;
 }
 
 .hero-img{

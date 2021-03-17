@@ -140,12 +140,26 @@
 .towns section:nth-child(even) p3 {
     grid-column: 1;
   }
+
+
 .tips{
-  padding:30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.rod{
+    width:100%;
+    height:100%;
+    
 }
 
-.whereToGo a{
-    color:red;
+.whereToGo1{
+    grid-column: 1/2; 
+    
+}
+.whereToGo{
+    grid-column: 2/3; 
+    text-align: left;
 }
 
  /*----------API-----------*/

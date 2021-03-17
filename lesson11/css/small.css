@@ -542,8 +542,8 @@ main h2 {
     height: 250px;
     padding: 0;
     margin-top:20px;
-  
   }
+
   
 .towns p {
     text-align: center;
@@ -564,24 +564,23 @@ main h2 {
 
 .footer-bar a{color:#ffffff;}
 
-
-  
-
 .rod{
     width:100%;
-    box-shadow: 5px 5px 10px;
-  }
-section ul{
-    color:#444f5a;
-    padding:15px;
-  }
+}
   
 .whereToGo{
       background: radial-gradient(#ffffff, #0092ca);
       padding:20px;
+      text-align: center;
     }
+.whereToGo ul{
+    list-style-type:none;
+}
 .whereToGo a{
-      color:red;
+      color:#000000;
+}
+.whereToGo a:hover{
+      font-weight:bold;
 }
 
 .pushpin{
