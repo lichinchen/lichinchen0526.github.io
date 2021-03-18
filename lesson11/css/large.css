@@ -22,7 +22,17 @@
   .weather_container figure:hover {
       box-shadow: 5px 5px 20px;
       }
-     
+/*------------Storm Center------------*/
+
+/*#stormseverity {
+  width: 95%;
+}
+#ratingvalue {
+  width: 5%;
+}
+div#danger span:last-of-type {
+  margin: 0 0 0 3%;
+} */    
 
 /*----------- Home Page --------------*/
 
