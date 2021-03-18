@@ -40,7 +40,7 @@ forecastapi.forEach(data => {
   let weather = data.weather[0].description;
   let imageURL = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
          
-document.getElementById(`day${n+1}`).textContent = weekday[d.getDay()];
+document.getElementById(`day${n+1}`).textContent = weekday[(d.getDay()+1+n)%7];
 document.getElementById(`date${n+1}`).textContent = month[d.getMonth()]+"/"+d.getDate();
 document.getElementById(`temp${n+1}`).textContent = data.main.temp.toFixed(0) + `°F`;
 document.getElementById(`icon${n+1}`).setAttribute('src', imageURL);
