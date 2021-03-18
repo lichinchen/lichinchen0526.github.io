@@ -435,8 +435,9 @@ form span {
     font-weight: 700;
 }
 span.req {
-    color: red;
+    color: 	red;
     margin: 0;
+    font-size:18px;
 }
 
 form label.severity {
