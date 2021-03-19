@@ -21,18 +21,10 @@
       
   .weather_container figure:hover {
       box-shadow: 5px 5px 20px;
+      cursor: pointer;
       }
-/*------------Storm Center------------*/
 
-/*#stormseverity {
-  width: 95%;
-}
-#ratingvalue {
-  width: 5%;
-}
-div#danger span:last-of-type {
-  margin: 0 0 0 3%;
-} */    
+
 
 /*----------- Home Page --------------*/
 
@@ -139,6 +131,7 @@ div#danger span:last-of-type {
 .whereToGo a:hover{
   font-size:20px;
   color:#444f5a;
+  cursor: pointer;
 }
 
 .hero-img{
