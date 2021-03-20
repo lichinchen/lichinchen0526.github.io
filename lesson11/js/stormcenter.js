@@ -1,4 +1,4 @@
 function adjustRating(rating) {
-    document.querySelector(".storm-severity-value").innerHTML = rating;
+    document.querySelector(".value").innerHTML = rating;
     
 }
