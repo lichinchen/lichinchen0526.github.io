@@ -1,0 +1,141 @@
+body {
+    font-size:18px;
+    background-color:#EBEBEB;
+    font-family:"Lato";
+}
+
+main{
+    padding:10px;
+    background-color:#EBEBEB;
+}
+
+
+footer{
+    font-size:16px;
+    background-color:#B1B1B1;
+    color:#000000;
+    padding:10px;
+    text-align:center;
+    font-family:"Lato";
+}
+
+
+
+h1, h2, h3 {
+    font-family:"Suez One";
+}
+
+
+h2 {
+    color: #000000;
+    padding:0.5em;
+}
+ 
+footer a {
+    color: #000000;
+    text-decoration: none;
+ }
+
+footer a:hover{
+    font-weight:bold;
+}
+header, main, footer, nav {
+    margin: auto;
+}
+/*---------------header---------------------*/
+
+.topheader {
+    background-color:#000000;
+    color:#ffffff;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+	align-items:left;
+	justify-content:flex-start;
+}
+h1{
+    font-size:1.5em;
+    text-align: left;
+    margin:0;
+    color:#FFA015;
+}
+.motto{
+    font-size:1em;
+    text-align: left;
+    margin:0;
+}
+.topheader img{
+    padding:15px;
+}
+
+.sitehead{
+    margin-top:100px;
+}
+/*---------------navigation-----------------*/ 
+ 
+nav{
+    background-color:#00A7EA;
+    text-align:center;
+    margin:0 auto;
+}
+nav ul{
+    list-style-type:none;
+    margin:0 auto;
+    font-size:25px;
+    padding:15px;
+}
+
+nav ul li a {
+    display:block;
+    color:#000000;
+    text-align:center;
+    padding:10px;
+    font-family: "Lato";
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:#A1E0F7;
+    color:#000000;
+    font-weight:bold;
+    border: #ffffff dashed 2px;
+    cursor: pointer;
+}
+.active {
+    color:#000000;
+    background-color:#FFA015;
+    font-weight:bold;
+}
+
+/*------------------toggleMenu-----------------*/
+.navigation{
+    list-style:none;
+    padding:0;
+}
+
+.navigation li{
+    display:none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation a{
+    display:block;
+    padding:0.9rem;
+    text-align:center;
+    text-decoration:none;
+    font-family:"Lato";
+    color:#000000;
+}
+
+.navigation a:hover{
+    color:#000000;
+    background-color:#A1E0F7;
+    cursor: pointer;
+}
+
+.responsive li {
+    display:block;
+}

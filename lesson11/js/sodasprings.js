@@ -5,7 +5,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        /*console.log(jsObject);*/
         document.getElementById('curCon').textContent = jsObject.weather[0].main;
         document.getElementById('curTemp').textContent = jsObject.main.temp;
         document.getElementById('hiTemp').textContent = jsObject.main.temp_max;
@@ -35,10 +35,10 @@ const forecastapi = "https://api.openweathermap.org/data/2.5/forecast?id=5607916
 fetch(forecastapi)
 .then((response) => response.json())
 .then((jsObject) => {
-  console.log(jsObject);
+  /*console.log(jsObject);*/
 
 let forecastapi = jsObject.list.filter(data => data.dt_txt.includes('18:00:00'));
-console.log(forecastapi);
+/*console.log(forecastapi);*/
 
 let n = "";
 
