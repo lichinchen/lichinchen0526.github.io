@@ -24,7 +24,9 @@
       cursor: pointer;
       }
 
-
+      form {
+        max-width: 500px;
+      }
 
 /*----------- Home Page --------------*/
 
