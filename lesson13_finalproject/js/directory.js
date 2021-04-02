@@ -1,4 +1,4 @@
-const requestURL = './data/directory.json';
+const requestURL = 'https://lichinchen.github.io/lichinchen0526.github.io/lesson13_finalproject/data/directory-data.json';
 fetch(requestURL)  
   .then(function (response) {
     return response.json();
