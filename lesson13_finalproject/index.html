@@ -21,7 +21,7 @@
         </picture>
     </a>
     <section class="sitehead">
-        <h1>Indiana Chamber of Commerce</h1>
+        <h1>Indy Chamber of Commerce</h1>
         <p class="motto">Provides economic opportunity and prosperity</p>
     </section>
    </div>
@@ -30,8 +30,8 @@
 <nav>
   <ul class="navigation">
     <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-    <li><a class="active" href="#">Home</a></li>
-    <li><a href="indiana.html">Indiana</a></li>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="indianapolis.html">Indianapolis</a></li>
     <li><a href="join.html">Join</a></li>
     <li><a href="directory.html">Directory</a></li>
     <li><a href="contact.html">Contact</a></li>
@@ -43,68 +43,124 @@
             <source media="(max-width: 400px)" srcset="images/indianalandmark400.jpg">
             <source media="(max-width: 600px)" srcset="images/indianalandmark600.jpg">
             <source media="(max-width: 960px)" srcset="images/indianalandmark960.jpg">
-                <img class="hero-img" src="images/indianalandmark960.jpg" alt="heroimg">
+              <img class="hero-img" src="images/indianalandmark960.jpg" alt="heroimg">
+              <a href="join.html"><button class="btn">Join Now!!</button></a>
         </picture>
-        <div class="weather-summary">
-            <h3>Weather Summary</h3>
-            <p>Currently: <span id="curCon"></span></p>
-            <p>Temperature: <span id="curTemp"></span> &#8457;</p>
-            <p>High: <span id="hiTemp"></span> &#8457;</p>
-            <p>Wind Chill: <span id="windChill"></span> &#8457;</p>
-            <p>Humidity: <span id="humidity"></span> %</p>
-            <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+        <div class="weatherbox">
+          <div class="weather-summary">
+          <h3>Weather Summary</h3>
+          <p>Weather Alert: <span id="wAlert"></span>Raining</p>
+          <p>Currently: <span id="curCon"></span>Sunny</p>
+          <p>Temperature: <span id="curTemp"></span> &#8457;</p>
+          <p>Humidity: <span id="humidity"></span> %</p>
+          </div>
+          <h3 class="threeday">3-Day Forecast</h3>
+          <div class="forecast_container">
+            <div class="forecast">
+              <p id="day1"></p>
+              <p id="date1">3/8</p>
+              <img id="icon1" src="images/placeholder.png" alt="blank1">
+              <p id= "temp1"></p>
+            </div>
+            <div class="forecast">
+              <p id="day2"></p>
+              <p id="date2">3/8</p>
+              <img id="icon2" src="images/placeholder.png" alt="blank2">
+              <p id= "temp2"></p>
+            </div>
+            <div class="forecast">
+              <p id="day3"></p>
+              <p id="date3">3/8</p>
+              <img id="icon3" src="images/placeholder.png" alt="blank3">
+              <p id= "temp3"></p>
+            </div>
+        </div>
+        <div class="events">
+        <h3>Upcoming Events</h3>
+        <ul>
+          <li>10th Annual Auction Fundraiser: April 9</li>
+          <li>"A Primavera" - Gallery Open House: April 9</li>
+          <li>The Zoom Room Networking: April 29</li> 
+        </ul>
         </div>
     </div>
+    <h3 class="local">Local Company Advertisement</h3>
+    <div class="localCo">
+    <section>
+      <a href="https://www.speedway.com/" target="_blank"><h3>Speedway Gas Station</h3></a>
+      <img src="images/speedway.jpg" alt="speed way gas station" />
+      <p>At Speedway, we stem from our ability to understand people’s needs. We recognize that there are many gas and convenience store choices, and that nothing less than outstanding service, a wide selection of products, and real value for one’s dollar will attract loyal customers.</p>
+    </section>
+    <section>
+      <a href="https://saragaindy.com/" target="_blank"><h3>Saraga Grocery</h3></a>
+      <img src="images/saraga.jpg" alt="Grocery" />
+      <p>
+        Saraga provides over ten thousand different kinds of foods and goods to customers with diverse cultural and racial backgrounds. Saraga will do its best to deliver more diverse and better foods and goods to more people while opening more stores in the US in the next few years.
+      </p>
+    </section>
+    <section>
+      <a href="https://yasogrill.com/" target="_blank"><h3>Yaso Jamaican Grill</h3></a>
+      <img src="images/yasogrill.jpg" alt="grill" />
+      <p>Yaso Jamaican Grill is family owned and operated and we proudly stand on this strength.  We hail from the beautiful, seaside of Belmont Westmoreland, Jamaica, and the American Crossroads of Indianapolis, Indiana.  We have taken the best of our cultures and created a space for family and friends to exchange, relax, unwind, and taste the exciting flavors of Jamaica.  </p>
+    </section>
+    <section>
+      <a href="https://indianapolishealthplex.com/" target="_blank"><h3>Indianapolis Healthplex.</h3></a>
+      <img src="images/healthplex.jpg" alt="gym" />
+      <p>We’re ready to help you begin a healthier life. Our nationally accredited personal trainers and dedicated staff will help you create a customized plan to meet your fitness goals in the safest, most efficient way possible.
+        We welcome anyone who’s interested in getting healthy, having fun and leading a better lifestyle. Discover why our wellness center is one of Indy’s best kept secrets! </p>
+    </section>
+    </div>
+    <h3 class="goal">Our Goals and purpose</h3>
+    <div class="goal-container">
+      <img src="images/goalandpurpose.jpg" alt="goal">
+      <p class="p1"> This chamber of commerce site provides profitable chances and success for the persons of Indiana and their companies. We will provide the following five points.<br>
+        <br>
+       <ol>
+         <li> We work for small businesses: We can assist small businesses to hold an activity that can attract people. </li>
+         <li> Enhance the reputation of your business: We can assist your business with your mission, your enterprise's spirit, and the influences on the district.</li>
+         <li> Making your company's networking skills better: We will aid and train you to discuss, speak with different people online and follow up with the persons whom you will meet.</li>
+         <li> Provide you to find the right Chamber of Commerce to join: We will assist you to find the right Chamber to join and build your relationship with your local community. It will increase business opportunities. </li>
+         <li> Provide potential customers: We will provide potential customers to our members. </li>
+       </ol>
 
-      <h2>Home Towns</h2>
-      <div class="towns"></div>
-      <h3 class="whereToGo2">Winter Fishing In Idaho: Where To Go</h3>
-      <section class="tips">
-        <div class="whereToGo1">
-          
-          <img class="rod" src="images/winterfishing.jpg" alt="fishing rod">
-        
-        </div>
+    </div>  
+    
       
-        <div class="whereToGo">
-          <h3><span class="pushpin"> &#128204; </span>Where To Go</h3>
-          <ul>
-            <li><a href="preston.html">Foster Reservoir/Glendale Reservoir--Preston</a></li>
-            <li><a href="sodasprings.html">Blackfoot Reservoir/Alexander Reservoir--Soda Springs</a></li>
-            <li><a href="fishhaven.html">Hyrum State Park/Bear Lake State Park--Fish Haven</a></li>
-          </ul>
-        </div>
-      </section>
-    </main>
+</main>
     <footer>
       <div class="contact-container">
-          <div class="contact-info">
-              <h4>&#127757; Contact Information</h4>
-              <p>&#128103; Li Chin Chen</p>
-              <p>&#128140; g599526@gmail.com</p>
-              <p>&#128222; 425-772-0186</p>
-              <p>&#128235; 333 Indigo St. Lafayette, IN</p>
-              <div class="social-media">
-                  <a href="http://www.facebook.com" target="_blank"><img class="social-icons" src="images/facebook.png" alt="Facebook icon"></a>
-                  <a href="http://www.instagram.com" target="_blank"><img class="social-icons" src="images/instagram.png" alt="Instagram icon"></a>
-                  <a href="http://www.twitter.com" target="_blank"><img class="social-icons" src="images/twitter.png" alt="Twitter icon"></a>
-                  <a href="http://www.whatsapp.com" target="_blank"><img class="social-icons" src="images/whatsapp.png" alt="WhatsApp icon"></a>
-                  <a href="http://www.pinterest.com" target="_blank"><img class="social-icons" src="images/pinterest.png" alt="Pinterest icon"></a>
-              </div>
+        <div class="contact-info">
+            <h4> Contact Us</h4>
+            <p>Li Chin Chen</p>
+            <p>Indychamber@gmail.com</p>
+            <p>317-772-0186</p>
+            <p>333 Massachusetts Ave Unit 204
+              Indianapolis, IN 46204</p>
+              
           </div>
           <div class="map">
               <div class="map-responsive">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477162.8598707267!2d-111.73498111887461!3d42.13350395839597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1605405945809!5m2!1sen!2sus" width="450" height="275"></iframe>
+                  
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.5820589021255!2d-86.15551688432144!3d39.771491202550635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50950b926507%3A0xf84c5c108c6598b7!2s333%20Massachusetts%20Ave%20UNIT%20204%2C%20Indianapolis%2C%20IN%2046204!5e0!3m2!1sen!2sus!4v1617326680694!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
               </div>
           </div>
       </div>
       
       <div class="footer-bar">
-          <p>&copy; <span id="currentYear"></span> Indiana Chamber of Commerce |<a href="https://openweathermap.org/">OpenWeatherMap</a>| Li Chin Chen |<a href="https://lichinchen.github.io/lichinchen0526.github.io/lesson12_finalsiteplan/index.html" target="blank">Site Plan</a> |<span id="currentday"></span></p>
+        <div class="social-media">
+          <a href="http://www.facebook.com" target="_blank"><img class="social-icons" src="images/facebook.png" alt="Facebook icon"></a>
+          <a href="http://www.twitter.com" target="_blank"><img class="social-icons" src="images/twitter.png" alt="Twitter icon"></a>
+          <a href="http://www.whatsapp.com" target="_blank"><img class="social-icons" src="images/whatsapp.png" alt="WhatsApp icon"></a>
+          <a href="http://www.pinterest.com" target="_blank"><img class="social-icons" src="images/pinterest.png" alt="Pinterest icon"></a>
+          <a href="http://www.instagram.com" target="_blank"><img class="social-icons" src="images/instagram.png" alt="Instagram icon"></a>
+        </div>
+        <p>&copy; <span id="currentYear"></span> Indy Chamber of Commerce |<a href="https://openweathermap.org/">OpenWeatherMap</a>| Li Chin Chen |<a href="https://lichinchen.github.io/lichinchen0526.github.io/lesson12_finalsiteplan/index.html" target="blank">Site Plan</a> |<span id="currentday"></span></p>
       </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script src="js/finalproject.js"></script>
+  <script src="js/weatherapi.js"></script>
+  <!--<script src="js/events.js"></script>-->
 </body>
 
 </html>

@@ -1,0 +1,85 @@
+{
+    "directory": [
+      {
+        "businessname": "Long-Sharp Gallery",
+        "businessaddress": "1 North Illinois, Suite A, Indianapolis, IN 46204",
+        "businesstel": "866-370-1601",
+        "businessemail": "info@longsharpgallery.com",
+        "logo": "images/lsglogo.png",
+        "web": "https://www.longsharpgallery.com/",
+        "owner": "Rhonda Long-Sharp, J.D.",
+        "foundingyear": "2005"
+      },
+      {
+        "businessname": "Indy Reads",
+        "businessaddress": "1066 Virginia Ave Indianapolis, IN 46203",
+        "businesstel": "317-384-1496",
+        "businessemail": "info@indyreads.org",
+        "logo": "images/indyreadslogo.png",
+        "web": "https://indyreads.org/",
+        "owner": "Ryan King",
+        "foundingyear": "2018"
+      },
+      {
+        "businessname": "Tony's Steaks-Seafood",
+        "businessaddress": "110 W Washington St, Indianapolis, IN 46204",
+        "businesstel": "317-638-8669",
+        "businessemail": "guestservices@tonysofindianapolis.com",
+        "logo": "images/tonyslogo.png",
+        "web": "https://tonysofindianapolis.com/",
+        "owner": "Tony Ricci",
+        "foundingyear": "2018"
+      },
+      {
+        "businessname": "Emily Ventura Designs",
+        "businessaddress": "1414 E 49th St, Indianapolis, IN 46205",
+        "businesstel": "317-403-5037",
+        "businessemail": "emily@emilyventuradesigns.com",
+        "logo": "images/emilylogo.png",
+        "web": "https://emilyventuradesigns.com/",
+        "owner": "Christine",
+        "foundingyear": "2018"
+      },
+      {
+        "businessname": "Fit Flex Fly",
+        "businessaddress": "1706 East 86th Street  Indianapolis, IN  46240",
+        "businesstel": "317-218-3928",
+        "businessemail": "hello@fitflexfly.com",
+        "logo": "images/3flogo.jpg",
+        "web": "https://fitflexfly.com/",
+        "owner": "Mark and Kelli Morgan",
+        "foundingyear": "2012"
+      },
+      {
+        "businessname": "Amelia's",
+        "businessaddress": "653 Virginia Ave, Indianapolis, IN 46203",
+        "businesstel": "317-686-1583",
+        "businessemail": "orders@ameliasbread.com.",
+        "logo": "images/ameliaslogo.jpg",
+        "web": "https://ameliasbread.com/",
+        "owner": "Abbi Merriss",
+        "foundingyear": "2012"
+      },
+      {
+        "businessname": "Salon Honey",
+        "businessaddress": "1035 Shelby St, Indianapolis, IN 46203",
+        "businesstel": "317-767-5708",
+        "businessemail": "SALONHONEYINDY@GMAIL.COM",
+        "logo": "images/salonlog.jpg",
+        "web": "https://www.salonhoneyindy.com/",
+        "owner": "Celaithia",
+        "foundingyear": "2011"
+      },
+      {
+        "businessname": "The Forest Flower",
+        "businessaddress": "3205 W 71st St, Indianapolis, IN 46268",
+        "businesstel": "317-291-1441",
+        "businessemail": "info@theforestflower.com",
+        "logo": "images/theforestflowerlogo.png",
+        "web": "https://www.theforestflower.com/",
+        "owner": "Leah V. Flanagan",
+        "foundingyear": "2018"
+      }
+     
+    ]
+  }

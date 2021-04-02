@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project--Join Page of Chamber </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="Final Project The Chamber of Commerce Site Join Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+<body>
+  
+<header>
+    <div class="topheader">
+    <a href="index.html">
+        <picture>
+            <img src="images/logo.jpg" alt="Site Logo">
+        </picture>
+    </a>
+    <section class="sitehead">
+        <h1>Indy Chamber of Commerce</h1>
+        <p class="motto">Provides economic opportunity and prosperity</p>
+    </section>
+   </div>
+   
+</header>
+<nav>
+  <ul class="navigation">
+    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="indianapolis.html">Indianapolis</a></li>
+    <li><a class="active" href="join.html">Join</a></li>
+    <li><a href="directory.html">Directory</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<main>
+    <form method="get" action="confirmation.html">
+        <fieldset>
+            <legend>Chamber Information</legend>
+            <label class="top">First Name<span class="req">*</span> <input type="text" name="fname" pattern="[A-Z a-z]+" minlength="5" required="" ></label>
+            <label class="top">Last Name<span class="req">*</span> <input type="text" name="lname" pattern="[A-Z a-z]+" minlength="5" required="" ></label>
+            <label class="top">Title <input type="text" name="title" pattern="[A-Z a-z]+" minlength="5"></label>
+            <label class="top">Email<span class="req">*</span> <input type="email" name="email" placeholder="" required="" ></label>
+            <label class="top">Phone <input type="tel" name="phone" placeholder=""></label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Business Information</legend>
+            <label class="top">Business name<span class="req">*</span> <input type="text" name="businessname" pattern="[A-Z a-z]+" minlength="5" required="" ></label>
+            <label class="top">Business address <input type="text" name="address" placeholder="street address"><br><input type="text" name="city" placeholder="city"><br><input type="text" name="state" placeholder="state"><br><input type="number" name="zipcode" placeholder="postal/zipe code"> </label>
+            <label class="top">Business website <input type="url" name="website" placeholder=""></label>
+            <label class="top">Number of members <input type="text" name="nummember" placeholder=""></label>
+            <label class="top">Number of staff <input type="text" name="numstaff" placeholder=""></label>
+        </fieldset>
+        <fieldset>
+            <legend>Membership Type</legend>
+            <div class="member">Chamber Membership Type</div>
+            <label class="mem"><input type="radio" name="member" value="non-profit"> Non-profit-$100</label>
+            <label class="mem"><input type="radio" name="member" value="bronze"> Bronze-$200</label>
+            <label class="mem"><input type="radio" name="member" value="silver"> Silver-$400</label>
+            <label class="mem"><input type="radio" name="member" value="gold"> Gold-$1000</label>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5">Membership Type</th>
+                    </tr>
+                </thead>
+                <tbody>    
+                    <tr>
+                        <th>Benefits</th>
+                        <th>Non-profit</th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                    <tr>
+                        <td>Fee</td>
+                        <td>$100</td>
+                        <td>$200</td>
+                        <td>$400</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td>Directory listings</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                        <td>Business trainings</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                        <td>Social media posts</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                        <td>luncheon tickets</td>
+                        <td>&#10006;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                        <td>&#10004;</td>
+                    </tr>
+                    <tr>
+                        <td>Sponsorships with levels of advertising</td>
+                        <td>&#10006;</td>
+                        <td>&#10006;</td>
+                        <td>&#10006;</td>
+                        <td>&#10004;</td>
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+
+            
+
+        </fieldset>
+        <fieldset>
+          <legend>Business description </legend>
+          <label class="top">Business description <textarea class="business-des" name="business-descr"></textarea></label>
+        </fieldset>
+        <input type="submit" value="Submit My Application" class="submitButton">
+    </form>
+    
+</main>
+    <footer>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h4> Contact Us</h4>
+                <p>Li Chin Chen</p>
+                <p>Indychamber@gmail.com</p>
+                <p>317-772-0186</p>
+                <p>333 Massachusetts Ave Unit 204
+                    Indianapolis, IN 46204</p>
+                
+            </div>
+            <div class="map">
+                <div class="map-responsive">
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.5820589021255!2d-86.15551688432144!3d39.771491202550635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50950b926507%3A0xf84c5c108c6598b7!2s333%20Massachusetts%20Ave%20UNIT%20204%2C%20Indianapolis%2C%20IN%2046204!5e0!3m2!1sen!2sus!4v1617326680694!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bar">
+            <div class="social-media">
+                <a href="http://www.facebook.com" target="_blank"><img class="social-icons" src="images/facebook.png" alt="Facebook icon"></a>
+                <a href="http://www.twitter.com" target="_blank"><img class="social-icons" src="images/twitter.png" alt="Twitter icon"></a>
+                <a href="http://www.whatsapp.com" target="_blank"><img class="social-icons" src="images/whatsapp.png" alt="WhatsApp icon"></a>
+                <a href="http://www.pinterest.com" target="_blank"><img class="social-icons" src="images/pinterest.png" alt="Pinterest icon"></a>
+                <a href="http://www.instagram.com" target="_blank"><img class="social-icons" src="images/instagram.png" alt="Instagram icon"></a>
+            </div>
+            <p>&copy; <span id="currentYear"></span> Indy Chamber of Commerce |<a href="https://openweathermap.org/">OpenWeatherMap</a>| Li Chin Chen |<a href="https://lichinchen.github.io/lichinchen0526.github.io/lesson12_finalsiteplan/index.html" target="blank">Site Plan</a> |<span id="currentday"></span></p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/finalproject.js"></script>
+  </body>
+  
+  </html>
