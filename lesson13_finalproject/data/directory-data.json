@@ -1,15 +1,15 @@
 {
     "directory": [
       {
-        "businessname": "Gallery Forty-Two",
-        "businessaddress": "42 E Washington St, Indianapolis, IN 46204",
-        "businesstel": "317-822-4242",
-        "businessemail": "curt@galleryfortytwo.com",
-        "logo": "images/42gallery.jpg",
-        "web": "https://galleryfortytwo.com/",
+        "businessname": "Long-Sharp Gallery",
+        "businessaddress": " 1 N Illinois St suite a, Indianapolis, IN 46204",
+        "businesstel": "866-370-1601",
+        "businessemail": "info@longsharpgallery.com.",
+        "logo": "images/lsglogo.png",
+        "web": "https://www.longsharpgallery.com/",
         "owner": "Rhonda Long-Sharp, J.D.",
         "order": 1,
-        "Founded": "2014"
+        "Founded": "2005"
       },
       {
         "businessname": "Indy Reads",
