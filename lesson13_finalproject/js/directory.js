@@ -24,12 +24,13 @@ fetch(requestURL)
       bEmail.textContent = 'Email:' + directory[i].businessemail;
       bWeb.textContent = 'Website:' + directory[i].web;
       bOwner.textContent = 'Owner:' + directory[i].owner;
-      bFy.textContent = 'Found Year:' + directory[i].foundingyear;
+      bFy.textContent = 'Founded:' + directory[i].Founded;
 
       image.setAttribute('src', directory[i].logo);
       image.setAttribute('alt', directory[i].businessname + ' ' + '-' + ' ' + directory[i].order);
 
       card.appendChild(bName);
+      card.appendChild(image);
       card.appendChild(bAdd);
       card.appendChild(bTel);
       card.appendChild(bEmail);
@@ -37,7 +38,7 @@ fetch(requestURL)
       card.appendChild(bOwner);
       card.appendChild(bFy);
 
-      card.appendChild(image);
+      
       
       document.querySelector('div.cards').appendChild(card);
     }
