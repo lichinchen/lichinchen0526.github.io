@@ -560,8 +560,8 @@ table tr, td, th {
     box-sizing: border-box;
     display: block;
     /*width: 35%;*/
-    width:200px;
-    height:100px;
+    width:35%;
+    /*height:30%;*/
     position: relative;
     /*width: 100%;*/
     display: block;

@@ -30,13 +30,13 @@ fetch(requestURL)
       image.setAttribute('alt', directory[i].businessname + ' ' + '-' + ' ' + directory[i].order);
 
       card.appendChild(bName);
-      card.appendChild(image);
       card.appendChild(bAdd);
       card.appendChild(bTel);
       card.appendChild(bEmail);
       card.appendChild(bWeb);
       card.appendChild(bOwner);
       card.appendChild(bFy);
+      card.appendChild(image);
 
       
       
