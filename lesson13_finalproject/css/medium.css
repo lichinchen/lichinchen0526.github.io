@@ -46,34 +46,56 @@
 .weatherbox {
     max-width: 50%;
     position: absolute;
-    top: 300px;
-    left: 100px;
+    top: 500px;
+    right: 100px;
     background-color: #000000;
-    border: 1px solid black;
+    border: 1px solid #ffffff;
     padding: 10px;
-    box-shadow: 0 0 30px #000000;
+    box-shadow: 0 0 30px #ffffff;
     opacity: .6;
 }
 
 /*-------------------3-day forecast---------------*/
 
 .threeday{
-    color: white;
+    color:#ffffff;
     text-shadow: 2px 2px 4px #000000;
 }
 /*------------------events-----------------------*/
-/*.events {
+
+.events {
+    max-width: 40%;
+    max-width:100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 300px;
+    right: 25px;
     background-color: #ffffff;
     border: 1px solid #d6e4f0;
     padding: 1rem;
     box-shadow: 0 0 30px #000000;
-    opacity: .7;  
-    text-align: center;
+    opacity: .8;  
+    text-align: left;
+    color:#000000;
 
-}*/
+}
+
+.events ul{
+    list-style-type:square;;
+}
+/*------------------towns--------------------------*/
+.towns{
+    max-width: 40%;
+    max-width:100%;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    background: radial-gradient(#ffffff, #444f5a);
+    border: 1px solid #d6e4f0;
+    padding: 1rem;
+    box-shadow: 0 0 30px #444f5a;
+    opacity: .8;  
+    text-align: center;
+}
 /*------------------contact information------------*/
 .contact-container{
     display: grid;
@@ -130,6 +152,9 @@
 form {
     max-width: 460px;
   }
-
+/*--------------history-container--------------*/
+.history-container img{
+    float:left;
+}
 
 }

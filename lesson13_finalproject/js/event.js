@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://lichinchen.github.io/lichinchen0526.github.io/lesson13_finalproject/data/event.json';
 
    async function getJSON() {
        try {
@@ -12,7 +12,7 @@ const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
    async function renderGetCityEvents(cityName) {
        let eventHTML = '<h3>&#x1F4E2; Upcoming Events &#127881;</h3><ul>';
        let citiesJSON = await getJSON();
-       let cities = citiesJSON['towns'];
+       let cities = citiesJSON['city'];
        let cityData = cities.filter(city => city.name == cityName);
        cityData[0].events.forEach(event => {
            eventParts = event.split(':');
@@ -26,3 +26,6 @@ const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
    if (activeMenuCity !== null) {
        renderGetCityEvents(activeMenuCity.textContent);
    }
+
+
+   

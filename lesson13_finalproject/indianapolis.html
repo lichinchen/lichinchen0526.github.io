@@ -25,19 +25,45 @@
         <p class="motto">Provides economic opportunity and prosperity</p>
     </section>
    </div>
+   <nav>
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="indianapolis.html">Indianapolis</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
    
 </header>
-<nav>
-  <ul class="navigation">
-    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a class="active" href="indianapolis.html">Indianapolis</a></li>
-    <li><a href="join.html">Join</a></li>
-    <li><a href="directory.html">Directory</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+
 <main>
+    <div class="city-container">
+        <picture class="photo-city">
+            <source media="(max-width: 500px)" srcset="images/indycity500.jpg">
+            <source media="(max-width: 1000px)" srcset="images/indycity1000.jpg">
+            <source media="(max-width: 1500px)" srcset="images/indycity.jpg">
+              <img class="city-img" src="images/indycity.jpg" alt="cityimg">
+        </picture>
+        <div class="events"></div>
+    </div>
+    <div class="towns"></div>
+    <div class="history-container">
+    <div>
+        <img src="images/indycity2.jpg" alt="hero img">
+        <h3>Indianapolis</h3>
+        <p>Indianapolis, city, seat (1822) of Marion county and capital of Indiana, U.S. It lies on the White River at its confluence with Fall Creek, near the centre of the state. The city is built on a level plain surrounded by low, gently sloping hills. It is a planned municipality, its layout resembling that of Washington, D.C., with radiating streets that converge on Monument Circle at the city centre. The climate is typical of the east-central Midwest, with warm to hot summers and cold winters; precipitation is moderate and spread fairly evenly throughout the year.</p>
+    </div>
+
+    <div>
+        <img src="images/indyhistory.jpg" alt="history img">
+        <h3>History</h3>
+        <p>Indianapolis was founded in 1821 as the state capital, which it officially became in 1825. Some impetus for growth was given when the Cumberland (National) Road (modern Washington Street downtown) was routed across the city in 1827 and later when railroads arrived. Indianapolis had become a major rail centre by the start of the American Civil War in 1861, and its importance to Union logistics spurred further growth; its population more than doubled between 1860 and 1870.</p>
+    </div>
+    </div>
+
+
     
 </main>
 <footer>
@@ -55,6 +81,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/finalproject.js"></script>
     <script src="js/event.js"></script>
+    <script src="js/city.js"></script>
   </body>
   
   </html>
