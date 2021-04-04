@@ -2,8 +2,6 @@
     "city": [
       {
         "name": "Indianapolis",
-        "photo": "indianapolis.jpg",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
         "yearFounded": 1820,
         "currentPopulation": 887232,
         "averageRainfall": 42.4,
@@ -23,23 +21,8 @@
           "April 27: Newsboys"
           
         ]
-      },
-      {
-        "name": "Fish Haven",
-        "photo": "fishhaven.jpg",
-        "motto": "This is Fish Heaven.",
-        "yearFounded": 1864,
-        "currentPopulation": 501,
-        "averageRainfall": 14.20,
-        "averageSnowfall": 21.6,
-        "averageSunnyday": 186,
-        "events": [
-          "April 1: How Big Was That Fish Day",
-          "May 15-30: Rush the Creek Days",
-          "July 24: Bear Lake Blunder Run",
-          "December 12: Light the Tree"
-        ]
       }
+      
       
     ]
   }
