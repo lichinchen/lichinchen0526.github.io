@@ -10,7 +10,7 @@ const requestURL = 'https://lichinchen.github.io/lichinchen0526.github.io/lesson
    }
  
    async function renderGetCityEvents(cityName) {
-       let eventHTML = '<h3>&#x1F4E2; Upcoming Events &#127881;</h3><ul>';
+       let eventHTML = '<h3> Upcoming Events </h3><ul>';
        let citiesJSON = await getJSON();
        let cities = citiesJSON['city'];
        let cityData = cities.filter(city => city.name == cityName);

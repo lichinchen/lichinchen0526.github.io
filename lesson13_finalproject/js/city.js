@@ -6,7 +6,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const towns = jsonObject['city'];
     function townName(town) {
-      if (town.name == "Indianapolis") {
+      if (town.name == "Indianapolis" || town.name == "Fish Haven") {
         return true;
       }
     };
@@ -22,8 +22,8 @@ fetch(requestURL)
       let year = document.createElement('p1');
       let population = document.createElement('p2');
       let rainfall = document.createElement('p3');
-      let snowfall = document.createElement('p3');
-      let sunnyday = document.createElement('p3');
+      let snowfall = document.createElement('p4');
+      let sunnyday = document.createElement('p5');
 
 
 

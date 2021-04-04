@@ -140,6 +140,8 @@ h1{
     background-color:#000000;
     opacity: .9;
     color:#ffffffff;
+    font-size:20px;
+    border-bottom-color:#ffffff;
 }
 
 /*.events ul{
@@ -153,25 +155,18 @@ h1{
     border-bottom-style: solid;
     padding-bottom: 5px ;
 }
+.events h3:hover{
+    border-bottom-color:#ffffff;
+}
 /*---------------towns----------------------*/
-div.towns {
+.towns-box {
     margin: 0 auto;
     max-width: 500px;
-}
-/*div.towncard section{
-    background-color: #FFCAD4;
-    color: #69474e;
+    padding:20px;
+    background: radial-gradient(#ffffff, #000000);
     text-align: center;
-    margin: 15px;
-    padding: 10px;
-    border-radius: 5px;
 }
-div.towncard img {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-}*/
+
 
 .towns section {
     display: grid;
@@ -182,13 +177,13 @@ div.towncard img {
     height:500px;
     width:60%;
     height:100%;
-    box-shadow: 0 0 10px #444f5a;
+    box-shadow: 0 0 10px #000000;
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 0 0 10px;
     align-items: center;
     justify-items: center;
-    background: radial-gradient(#ffffff, #c0c5cd);
+    background: radial-gradient(#ffffff, #EBEBEB);
   }
   
   
@@ -208,7 +203,7 @@ div.towncard img {
     font-weight:bold;
     font-style:italic;
   }
-.towns p1, p2, p3 {
+.towns p1, p2, p3, p4, p5 {
     font-size:20px;
 }
   
@@ -219,7 +214,7 @@ div.towncard img {
     text-shadow:1px 1px 3px #0092ca;
     font-weight:bold;
   }
-.towns p:hover, .towns p1:hover, .towns p2:hover, .towns p3:hover, .towns p0:hover{
+.towns p:hover, .towns p1:hover, .towns p2:hover, .towns p3:hover, .towns p0:hover, .towns p4:hover, .towns p5:hover{
     font-weight:bold;
     color: #0092ca;
 }
