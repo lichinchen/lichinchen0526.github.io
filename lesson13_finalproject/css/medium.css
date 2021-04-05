@@ -157,9 +157,9 @@
 form {
     max-width: 460px;
   }
-/*--------------history-container--------------*/
-.history-container img{
-    float:left;
+/*--------------city-history--------------*/
+.history-box{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 }

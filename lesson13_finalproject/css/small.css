@@ -194,7 +194,7 @@ h1{
     
   }
 .towns img:hover{
-    box-shadow: 0 0 10px #444f5a;
+    box-shadow: 0 0 10px #000000;
 }
  
 .towns p {
@@ -211,12 +211,12 @@ h1{
     padding:5px 0 0 0;
     margin: 15px 0 0;
     font-size:1.5em;
-    text-shadow:1px 1px 3px #0092ca;
+    text-shadow:1px 1px 3px #ffffff;
     font-weight:bold;
   }
 .towns p:hover, .towns p1:hover, .towns p2:hover, .towns p3:hover, .towns p0:hover, .towns p4:hover, .towns p5:hover{
     font-weight:bold;
-    color: #0092ca;
+    color: #00A7EA;
 }
 /*---------------navigation-----------------*/ 
  
@@ -698,21 +698,26 @@ table tr, td, th {
     text-align:center;
     
 }
-/*---------------------history-container-------------------*/
-.history-container{
-    max-width:1000px;
+/*---------------------history-box-------------------*/
+.city-history{
+    text-align: center;
+}
+.history-box{
+    margin:auto;
+    max-width:1300px;
     box-sizing: border-box;
     padding: 20px;    
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    grid-template-columns: 1fr;
     gap: 10px;
-    margin-right:auto;
-    margin-left:auto;
-    text-align: center;  
+    text-align: left;  
 }
-.history-container div{
+.history-box div{
     border:1px solid #ffffff;
 }
-.history-container img{
+.history-box img{
     width:100%;
+}
+.history-box h3{
+    text-align: center;
 }
