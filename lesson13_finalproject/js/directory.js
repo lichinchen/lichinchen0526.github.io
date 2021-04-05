@@ -22,7 +22,7 @@ fetch(requestURL)
       bAdd.textContent = 'Address: ' + directory[i].businessaddress;
       bTel.textContent = 'Phone: ' + directory[i].businesstel;
       bEmail.textContent = 'Email:' + directory[i].businessemail;
-      bWeb.textContent = 'Website:' + directory[i].web;
+      bWeb.textContent = 'Web:' + directory[i].web;
       bOwner.textContent = 'Owner:' + directory[i].owner;
       bFy.textContent = 'Founded:' + directory[i].Founded;
 
