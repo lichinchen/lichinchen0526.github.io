@@ -35,11 +35,20 @@ header, main, footer, nav {
 	align-items:left;
 	justify-content:flex-start;
 }
+.topheader picture img{
+    margin-top:80px;
+    width:100px;
+    height:110px;
+}
 h1{
     font-size:1.5em;
     text-align: left;
     margin:0;
     color:#FFA015;
+}
+h1:hover{
+    color:#ffffff;
+    cursor: pointer;
 }
 .motto{
     font-size:1em;
@@ -48,13 +57,25 @@ h1{
     display:none;
     color:#ffffff;
 }
-
-
+.motto:hover{
+    color:#00A7EA;
+    cursor: pointer;
+}
 .sitehead{
     margin-top:100px;
     background-color: #000000;
     border:none;
 }
+@media only screen and (max-width: 17.125rem) {
+h1{
+    font-size:0.8em;
+}
+.topheader picture img{
+    width:50px;
+    height:60px;
+}
+}
+
 .hero-container{
     width:100%;
 }
@@ -62,10 +83,12 @@ h1{
     width:100%;
     padding:0px;
 }
-/*.photo img:hover{
-    cursor: pointer;
-    opacity:0.5;
-}*/
+.hero-container picture img:hover{
+    cursor: pointer; 
+    box-shadow: 8px 8px 12px ;
+} 
+
+
 /*---------------join now------------*/
 .photo-hero .btn {
     position: absolute;
@@ -73,18 +96,19 @@ h1{
     right: 50px;
     background-color: #FFA015;
     color:#ffffff;
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px 10px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
+    border:3px groove #ffffff;
   }
   .photo-hero .btn:hover {
     background-color: #000000;
     color: #FFA015;
   }
-
+  
 
 /*---------------weatherbox-----------------*/
 .weatherbox {    
@@ -103,7 +127,10 @@ h1{
     font-family:"Lato";
     color:#ffffff;
  }
- 
+ .weatherbox:hover{
+    cursor: pointer;
+    background-color: #FFA015;
+}
 
 /*--------------3-day forecast--------------*/
 .forecast_container {
@@ -127,27 +154,22 @@ h1{
     text-shadow: 2px 2px 4px #000000;
 }
 /*---------------events--------------------*/
+
 .events { 
-    /*max-width:1000px;*/  
     color:#00A7EA;
     padding: 10px;
-    background: #000000;
+    background-color: #000000;
     text-align: left;
 }
 
 .events:hover{
     cursor: pointer;
-    background-color:#000000;
-    opacity: .9;
-    color:#ffffffff;
+    opacity: .8;
+    color:#00A7EA;
     font-size:20px;
-    border-bottom-color:#ffffff;
+    border-color:#ffffff;
 }
 
-/*.events ul{
-    list-style-type:none;
-}
- */
 .events h3 {
     text-align: center;
     border-bottom-width:1px;
@@ -158,6 +180,7 @@ h1{
 .events h3:hover{
     border-bottom-color:#ffffff;
 }
+
 /*---------------towns----------------------*/
 .towns-box {
     margin: 0 auto;
@@ -303,6 +326,13 @@ footer a {
 footer a:hover{
     font-weight:bold;
 }
+.contact-info h3:hover{
+    color:#ffffff;
+    font-size:2rem;
+}
+.social-media a:hover{
+    opacity: 0.7;
+}
 /*-------------contact-container-----------*/
 .contact-container{
     padding: 10px 0 0 0;
@@ -363,17 +393,28 @@ section {
     padding:10px; 
     border-style: solid;
     border-color: #ffffff;
-    border-width:1px;
+    border-width:3px;
    
+  }
+  section:hover{
+      background-color:#ffffff ;
   }
   
   section img {
     width: 100%;
     margin-top:10px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #b1b1b1;
+  }
+  section img:hover{
+      cursor: pointer;
+      box-shadow: 0 0 10px #000000;
+
   }
   
   section a {
-    color: #000000; 
+    color: #ffffff; 
+    text-shadow: 1px 1px 4px #000000;
     margin-top:10px; 
     font-size:1.2rem;
     text-decoration: none;
@@ -397,11 +438,16 @@ section {
   }
   .local{
       padding:10px;
-      color:#000000;
-      text-shadow: 1px 1px 2px #b1b1b1;
+      color:#FFA015;
+      text-shadow: 1px 1px 3px #000000;
       text-align: center;
       font-size:1.2rem;
   }
+  .local:hover{
+      color:#ffffff;
+      cursor: pointer;
+    }
+  
   
  /*-----------------goal-container--------------*/
  .goal-container{
@@ -416,12 +462,28 @@ section {
      width:100%;
      margin:0; 
     }
+.goal-container img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px #000000;
+    }
 .goal{
     text-align: center;
     font-size:1.2rem;
     padding:10px;
-    color:#000000;
-    text-shadow:1px 1px 2px #b1b1b1;
+    color:#FFA015;
+    text-shadow: 1px 1px 3px #000000;
+}
+.goal:hover{
+    cursor: pointer;
+    color:#ffffff;
+}
+.p1:hover{
+    background-color:#b1b1b1;
+    cursor: pointer;
+}
+li:hover{
+    background-color:#b1b1b1;
+    cursor: pointer;
 }
 
 /*------------------form-------------------*/
@@ -548,6 +610,7 @@ form label.top input:required:valid {
     text-align:center;
     text-shadow: 1px 1px 2px #000000;
 }
+
 /*-----------------tabel----------------------------*/
 table {
     width:100%;
