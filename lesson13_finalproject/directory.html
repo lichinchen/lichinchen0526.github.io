@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project--Directory Page of Chamber </title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Final Project The Chamber of Commerce Site Directory Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -39,7 +40,12 @@
 </nav>
 <main>
     <div class="cardh1"><h1>Directory List</h1></div>
+    <div id="btnContainer">
+      <button class="btn" onclick="listView()"><i class="fa fa-bars"></i>List</button> 
+      <button class="btn" onclick="gridView()"><i class="fa fa-th-large"></i> Grid </button>
+  </div>
     <div class="cards"></div>
+
 </main>
 <footer>
     <div class="footer-bar">
@@ -56,5 +62,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="js/finalproject.js"></script>
 <script src="js/directory.js"></script>
+
+
 </body>
 </html>

@@ -58,7 +58,7 @@ h1{
 .hero-container{
     width:100%;
 }
-.photo img{
+.photo-hero img{
     width:100%;
     padding:0px;
 }
@@ -67,7 +67,7 @@ h1{
     opacity:0.5;
 }*/
 /*---------------join now------------*/
-.photo .btn {
+.photo-hero .btn {
     position: absolute;
     top: 50px;
     right: 50px;
@@ -80,7 +80,7 @@ h1{
     border-radius: 5px;
     text-align: center;
   }
-  .photo .btn:hover {
+  .photo-hero .btn:hover {
     background-color: #000000;
     color: #FFA015;
   }
@@ -423,6 +423,7 @@ section {
     color:#000000;
     text-shadow:1px 1px 2px #b1b1b1;
 }
+
 /*------------------form-------------------*/
 form {
     max-width: 360px;
@@ -597,6 +598,7 @@ table tr, td, th {
 .regular-contact p{
     text-align: center;
 }
+
 .bod h1{
     text-align: center;
     text-shadow: 1px 1px 2px #000000;
@@ -605,7 +607,7 @@ table tr, td, th {
 .bod a{
     text-decoration: none;
 }
-.bodlist{
+/*.bodlist{
     max-width:960px;
     box-sizing: border-box;
     padding: 20px;    
@@ -616,15 +618,60 @@ table tr, td, th {
     margin-right:auto;
     margin-left:auto;
     text-align: center;  
+}*/
+.row, .column{
+    border:1px solid #b1b1b1;
+    text-align: center;
 }
-.bodlist div{
-    border:1px solid #ffffff;
+#btnContainer{
+    max-width:960px;
+    margin:auto;
+    padding:20px;
 }
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background-color:#ffffff;
+  }
+.row, .column{
+    max-width:960px;
+    margin:auto;
+    box-sizing: border-box;
+}
+.column img{
+    width:25%;
+    height:50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.btn {
+    border: 1px solid #000000;
+    outline: none;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-align:center;
+    
+  }
+.btn:hover {
+    background-color:#b1b1b1;
+  }
+.btn.active {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
 /*---------------thanks-container------------*/
 .thanks-container{
     text-align: center;
     font-size:25px;
 }
+
 /*---------------cards-------------------*/
 
 .cards {
@@ -632,9 +679,9 @@ table tr, td, th {
     width:100%;
     max-width: 1400px;
     background-color:#EBEBEB;
-    display: grid;
+    /*display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 10px;*/
     padding: 20px;
     margin: 0 auto;
     box-shadow: 0 0 30px 0;
@@ -659,19 +706,19 @@ table tr, td, th {
 .cards img {
     box-sizing: border-box;
     display: block;
-    /*width: 35%;*/
+    
     width:35%;
-    /*height:30%;*/
+    
     position: relative;
-    /*width: 100%;*/
+    
     display: block;
     margin: 0 auto;
 }
 
-.cards h2{
+/*.cards h2{
     color:#00A7EA;
     text-shadow: 1px 1px 1px #000000;
-}
+}*/
 .cardh1 h1{
     margin-top:20px;
     padding:20px 20px 20px 20px;
@@ -679,7 +726,7 @@ table tr, td, th {
     text-shadow: 1px 1px 2px #000000;
 
 }
-
+/*
 @media only screen and (min-width: 35rem) {
     .cards {     
         width: 94%;    
@@ -691,7 +738,7 @@ table tr, td, th {
         margin: 0;
     }
 
-}
+}*/
 /*--------------------city-container----------------------*/
 .photo-city img{
     width:100%;

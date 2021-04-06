@@ -8,9 +8,6 @@
         "averageSnowfall": 21.6,
         "averageSunnyday": 186,
         "events": [
-          "April 3: Festival of Laughs",
-          "April 3: March Madness Music Festival",
-          "April 3: Alabama at Bankers Life Fieldhouse, Indianapolis, IN",
           "April 10: Oddities and Curiosities Expo",
           "April 10: Smoke & Jokes Comedy Show",
           "April 16: La Original Banda El Limon",
@@ -21,8 +18,25 @@
           "April 27: Newsboys"
           
         ]
+      },
+      {
+        "name": "Home",
+        "yearFounded": 1820,
+        "currentPopulation": 887232,
+        "averageRainfall": 42.4,
+        "averageSnowfall": 21.6,
+        "averageSunnyday": 186,
+        "events": [
+          "April 10: Oddities and Curiosities Expo",
+          "May 8: John Moreland",
+          "Jun 12: Kaleo Tickets",
+          "JUl 8: Summer Celebration"
+        ]
       }
       
       
     ]
   }
+
+
+  

@@ -29,7 +29,7 @@ h1{
     margin-left:20px;
 }
 /*-------------------join now------------------*/
-.photo .btn {
+.photo-hero .btn {
     position: absolute;
     top: 60%;
     left: 50%;
@@ -44,7 +44,7 @@ h1{
     border-radius: 5px;
     text-align: center;
   }
-  .photo .btn:hover {
+  .photo-hero .btn:hover {
     background-color: #000000;
     color: #FFA015;
   }
@@ -67,4 +67,8 @@ form {
 .history-box{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+/*---------------contact us---------------------*/
+.column {
+    width: 33.33%;
+  }
 }

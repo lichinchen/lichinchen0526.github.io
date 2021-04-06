@@ -23,7 +23,7 @@
         display:block;
     }
 /*---------------join now-------------*/
-.photo .btn {
+.photo-hero .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,7 +38,7 @@
     border-radius: 5px;
     text-align: center;
   }
-  .photo .btn:hover {
+  .photo-hero .btn:hover {
     background-color: #000000;
     color: #FFA015;
   }
@@ -47,7 +47,7 @@
     max-width: 50%;
     position: absolute;
     top: 500px;
-    right: 100px;
+    left: 100px;
     background-color:#00A7EA;
     border: 1px solid #ffffff;
     padding: 10px;
@@ -161,5 +161,11 @@ form {
 .history-box{
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+/*----------------contact us-----------------*/
+.column {
+    width: 50%;
+  }
+.column img{
+    width:35%;
+}
 }

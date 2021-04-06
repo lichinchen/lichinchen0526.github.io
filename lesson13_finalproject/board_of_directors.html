@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project--Contact Page of Chamber </title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Final Project The Chamber of Commerce Site Contact Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -42,54 +43,64 @@
     <div class="bod">
         <a href="directors.html"><h1>Board of Directors</h1></a>
     </div>
-    <div class="bodlist">
-        <div>
-        <p>Board Chair</p>
-        <p>John Barth</p>
-        <img src="images/boardchair.jpg" alt="bofc">
-        </div>
-        <div>
-        <p>Board Vice Chair</p>
-        <p>Matt Bruhn</p>
-        <img src="images/boardvicechair.jpg" alt="bofv">
-        </div>
-        <div>
-        <p>Board Secretary</p>
-        <p>Chris Scott</p>
-        <img src="images/boardsecretary.jpg" alt="bofs">
-        </div>
-        <div>
-        <p>Board Treasurer</p>
-        <p>Kim Allen</p>
-        <img src="images/boardtreasurer.jpg" alt="boft">
-        </div>
-        <div>
-        <p>Immediate Past Chair</p>
-        <p>Michael Budd</p>
-        <img src="images/boardpastchair.jpg" alt="bofpc">
-        </div>
-        <div>
-        <p>Board Member</p>
-        <p>Joe Markun</p>
-        <img src="images/boardmember1.jpg" alt="bofm1">
-        </div>
-        <div>
-        <p>Board Member</p>
-        <p>Bob Smith</p>
-        <img src="images/boardmember2.jpg" alt="bofm2">
-        </div>
-        <div>
-        <p>Board Member</p>
-        <p>Tommy Sors</p>
-        <img src="images/boardmember3.jpg" alt="bofm3">
-        </div>
-        <div>
-        <p>Board Member</p>
-        <p>Dave Martin</p>
-        <img src="images/boardmember4.jpg" alt="bofm4">
-        </div>
-
+    <div id="btnContainer">
+        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i>List</button> 
+        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid </button>
     </div>
+    <div class="bodlist">
+        <div class="row">
+            <div class="column">
+                <p>Board Chair</p>
+                <p>John Barth</p>
+                <img src="images/boardchair.jpg" alt="bofc">
+            </div>
+            <div class="column">
+                <p>Board Vice Chair</p>
+                <p>Matt Bruhn</p>
+                <img src="images/boardvicechair.jpg" alt="bofv">
+             </div>
+            <div class="column">
+                <p>Board Secretary</p>
+                <p>Chris Scott</p>
+                <img src="images/boardsecretary.jpg" alt="bofs">
+            </div>
+       
+        
+            <div class="column">
+                <p>Board Treasurer</p>
+                <p>Kim Allen</p>
+                <img src="images/boardtreasurer.jpg" alt="boft">
+            </div>
+            <div class="column">
+                <p>Immediate Past Chair</p>
+                <p>Michael Budd</p>
+                <img src="images/boardpastchair.jpg" alt="bofpc">
+            </div>
+            <div class="column">
+                <p>Board Member</p>
+                <p>Joe Markun</p>
+                <img src="images/boardmember1.jpg" alt="bofm1">
+            </div>
+        
+            <div class="column">
+                <p>Board Member</p>
+                <p>Bob Smith</p>
+                <img src="images/boardmember2.jpg" alt="bofm2">
+            </div>
+            <div class="column">
+            <p>Board Member</p>
+            <p>Tommy Sors</p>
+            <img src="images/boardmember3.jpg" alt="bofm3">
+            </div>
+            <div class="column">
+                <p>Board Member</p>
+                <p>Dave Martin</p>
+                <img src="images/boardmember4.jpg" alt="bofm4">
+            </div>
+        </div>
+    </div>
+
+    
 
     
     
@@ -110,6 +121,7 @@
 </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/finalproject.js"></script>
+    <script src="js/grid_list.js"></script>
 </body>
   
 </html>
