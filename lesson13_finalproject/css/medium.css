@@ -56,6 +56,14 @@ h1{
   }
 
 /*-------------------weatherbox-------------------*/
+.weatherbox {   
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    opacity: .6;
+    background-color:#FFA015;
+}
+/*
 .weatherbox {
     max-width: 50%;
     position: absolute;
@@ -66,10 +74,10 @@ h1{
     padding: 10px;
     box-shadow: 0 0 30px #ffffff;
     opacity: .6;
-}
+}*/
 
 
-@media only screen and (max-width: 76.56rem) {
+/*@media only screen and (max-width: 76.56rem) {
  .weatherbox{
     max-width: 40%;
     position: absolute;
@@ -81,8 +89,8 @@ h1{
     box-shadow: 0 0 30px #ffffff;
     opacity: .6;
  }   
-}
-@media only screen and (max-width: 50rem) {
+}*/
+/*@media only screen and (max-width: 50rem) {
     .weatherbox{
        max-width: 30%;
        position: absolute;
@@ -93,8 +101,8 @@ h1{
        padding: 0px;
        box-shadow: 0 0 30px #ffffff;
        opacity: .6;
-    }   
-   }
+    }  
+   }*/
 /*-------------------3-day forecast---------------*/
 
 .threeday{
@@ -102,7 +110,17 @@ h1{
     text-shadow: 2px 2px 4px #000000;
 }
 /*------------------events-----------------------*/
-
+.events { 
+    width:50%;
+    color:#00A7EA;
+    padding: 10px;
+    background-color: #000000;
+    text-align: center;
+}
+.events ul{
+    list-style-type:none;
+}
+/*
 .events {
     max-width: 40%;
     position: absolute;
@@ -115,17 +133,15 @@ h1{
     opacity: .8;  
     text-align: left;
     color:#000000;
-}
+}*/
 
-.events ul{
-    list-style-type:square;;
-}
 
+/*
 @media only screen and (max-width: 60rem) {
 .events{
     display:none;
 }
-}
+}*/
 
 /*------------------towns--------------------------*/
 .towns-box{
@@ -172,6 +188,7 @@ h1{
     
 }
 /*---------------------section---------------------*/
+
 .localCo{
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 15px;

@@ -111,13 +111,14 @@ h1{
   
 
 /*---------------weatherbox-----------------*/
-.weatherbox {    
+.weatherbox {  
+    width:100%; 
     box-sizing: border-box;
-    /*border: 10px groove #B1B1B1;
-    background-color: #B1B1B1;*/
     text-align: center;
     padding: 10px;
     opacity: .6;
+    margin:auto;
+    margin-top:20px;
 }
 /*--------------weather summary-------------*/
 .weather-summary {   
@@ -129,13 +130,13 @@ h1{
  }
  .weatherbox:hover{
     cursor: pointer;
-    background-color: #FFA015;
+    background-color: #00A7EA;
 }
 
 /*--------------3-day forecast--------------*/
 .forecast_container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30px,1fr));
     gap: 2px;
     color:#ffffff;
 }
@@ -151,29 +152,36 @@ h1{
 
 .threeday{
     color: #ffffff;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 4px #000000;
+    font-size:25px;
 }
 /*---------------events--------------------*/
 
 .events { 
+    width:100%;
     color:#00A7EA;
     padding: 10px;
     background-color: #000000;
-    text-align: left;
+    text-align: center;
+    margin:auto;
+    margin-top:30px;
+}
+.events ul{
+    list-style-type:square;;
 }
 
 .events:hover{
     cursor: pointer;
     opacity: .8;
-    color:#00A7EA;
-    font-size:20px;
-    border-color:#ffffff;
+    color:#FFA015;
+    font-size:25px;
+    border:2px double #ffffff;
 }
 
 .events h3 {
     text-align: center;
     border-bottom-width:1px;
-    border-bottom-color:black;
+    border-bottom-color:#00A7EA;
     border-bottom-style: solid;
     padding-bottom: 5px ;
 }
@@ -429,6 +437,7 @@ section {
     color: #000000;
     font-size:20px;
   }
+ 
   .localCo {
     max-width:1300px;
     margin: 0 auto;
@@ -436,6 +445,7 @@ section {
     grid-template-columns: 1fr;
     padding:15px;
   }
+
   .local{
       padding:10px;
       color:#FFA015;
@@ -484,6 +494,7 @@ section {
 li:hover{
     background-color:#b1b1b1;
     cursor: pointer;
+    color:#000000;
 }
 
 /*------------------form-------------------*/

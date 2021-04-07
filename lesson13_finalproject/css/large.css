@@ -41,6 +41,34 @@ h1{
   }
     
   }
+/*------------------weather box---------------*/
+.weatherbox {
+    width: 20%;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    background-color:#00A7EA;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    box-shadow: 0 0 30px #ffffff;
+    opacity: .6;
+}
+.weatherbox:hover{
+    background-color: #FFA015;
+}
+@media only screen and (max-width: 88rem) {
+    .weatherbox{
+       max-width: 40%;
+       position: absolute;
+       top: 300px;
+       left: 60px;
+       background-color:#00A7EA;
+       border: 1px solid #ffffff;
+       padding: 8px;
+       box-shadow: 0 0 30px #ffffff;
+       opacity: .6;
+    }   
+   }
 /*-------------------section-------------------*/
 .localCo{
     grid-template-columns: 1fr 1fr 1fr 1fr;
