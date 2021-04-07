@@ -39,18 +39,12 @@
 </nav>
 <main>
   <div class="confirm-container">
-    <h1>Confirmation Page of Member Info</h1>
+    <p class="confirm-p">Confirmation Page of Member Info</p>
     <p>Thank you for submitting this application</p> 
     <p>We have successfully received it.</p>
-    <p>Below is a summary of the information you provided.</p><br><br>
-    
-    <?php
-    echo 'First Name: ' . $_POST ["fname"] . '<br>';
-    echo 'Last Name: ' . $_POST ["lname"] . '<br>';
-    echo 'Title: ' . $_POST ["title"] . '<br>';
-    echo 'Email: ' . $_POST ["email"] . '<br>';
-    echo 'Phone: ' . $_POST ["phone"];
-    ?>
+    <!--<p>Below is a summary of the information you provided.</p><br><br>-->
+    <img src="images/confirm.jpg" alt="confirm img">
+    <!--<div class="confirm-data"></div>-->
     <p>For any questions or concerns, please <a href="contact.html">contact us</a></p>
   </div>
 

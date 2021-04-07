@@ -215,6 +215,9 @@ h1{
 form {
     max-width: 460px;
   }
+table{
+    width:80%;
+}
 /*--------------city-history--------------*/
 .history-box{
     grid-template-columns: 1fr 1fr 1fr;

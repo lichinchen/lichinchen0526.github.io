@@ -81,9 +81,33 @@ h1{
     font-size:2.5rem;
 }
 /*------------------form-----------------------*/
+
 form {
-    max-width: 40%;
+    width: 80%;
   }
+table{
+    width:50%;
+}
+.form-grid{
+    margin:auto;
+    max-width:1300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    border: 1px solid #00A7EA;
+    margin-top:30px;
+}
+.benefit-grid{
+    background-color:#A1E0F7;
+    box-sizing: border-box;
+    padding:10px;
+    border: 1px solid #00A7EA;
+}
+.benefit{
+    font-size:1.5em;
+}
+.mem-form{
+    font-size:1.5em;
+}
 /*---------------history-container--------------*/
 .history-box{
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -96,4 +120,12 @@ form {
 .column {
     width: 33.33%;
   }
+/*---------------confirm-pape------------------*/
+.confirm-p{
+    text-align: center;
+    font-size:2em;
+    color:#b1b1b1;
+    text-shadow: 1px 1px 2px #000000;
+  
+}
 }
