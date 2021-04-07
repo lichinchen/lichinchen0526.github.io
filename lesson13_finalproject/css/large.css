@@ -120,6 +120,20 @@ table{
 .column {
     width: 33.33%;
   }
+.regular-contact{
+    margin:auto;
+    max-width:1200px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin-top:30px;
+}
+
+.contact-us{
+    font-size:2em;
+    
+}
+
+
 /*---------------confirm-pape------------------*/
 .confirm-p{
     text-align: center;
