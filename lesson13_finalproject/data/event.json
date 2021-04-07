@@ -2,16 +2,15 @@
     "city": [
       {
         "name": "Indianapolis",
+        "photo": "indianapolis.jpg",
         "yearFounded": 1820,
         "currentPopulation": 887232,
         "averageRainfall": 42.4,
         "averageSnowfall": 21.6,
         "averageSunnyday": 186,
         "events": [
-          "April 10: Oddities and Curiosities Expo",
           "April 10: Smoke & Jokes Comedy Show",
           "April 16: La Original Banda El Limon",
-          "April 23: Bryan White",
           "April 23: Indianapolis Home Show",
           "April 24: YSN Flow & more at The Emerson Theater",
           "April 24: Trey Kennedy",
@@ -21,10 +20,11 @@
       },
       {
         "name": "Home",
+        "photo": "home.jpg",
         "yearFounded": 1820,
         "currentPopulation": 887232,
         "averageRainfall": 42.4,
-        "averageSnowfall": 21.6,
+        "averageSnowfall": 19.4,
         "averageSunnyday": 186,
         "events": [
           "April 10: Oddities and Curiosities Expo",
@@ -32,7 +32,42 @@
           "Jun 12: Kaleo Tickets",
           "JUl 8: Summer Celebration"
         ]
+      },
+      {
+        "name": "Lafayette",
+        "photo": "lafayette.jpg",
+        "yearFounded": 1825,
+        "currentPopulation": 67140,
+        "averageRainfall": 38,
+        "averageSnowfall": 21.6,
+        "averageSunnyday": 187,
+        "events": [
+          "April 9: Lunar Love",
+          "April 12: Al-Anon Family Group",
+          "April 16: Cosmic Situation",
+          "April 17: Mommy and Me Mermicorns - Set",
+          "April 23: Kids' Dash: Affiliated with the Run for Justice",
+          "April 30: Parent's Night Out"
+        ]
+      },
+      {
+        "name": "Carmel",
+        "photo": "carmel.jpg",
+        "yearFounded": 1820,
+        "currentPopulation": 887232,
+        "averageRainfall": 42.4,
+        "averageSnowfall": 21.6,
+        "averageSunnyday": 186,
+        "events": [
+          "April 18: Ladytunes verde fest",
+          "April 20: Performing Arts Connect",
+          "April 23: An Evening with Super Singer Marilyn Maye",
+          "April 24: Peanut Butter & Jam",
+          "April 27: Traditional Irish Music Session @ Brockway Pub",
+          "April 28: The Hu with King Nun"
+        ]
       }
+      
       
       
     ]

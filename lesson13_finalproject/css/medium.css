@@ -144,7 +144,7 @@ h1{
 }*/
 
 /*------------------towns--------------------------*/
-.towns-box{
+/*.towns-box{
     max-width: 40%;
     max-width:100%;
     position: absolute;
@@ -156,7 +156,7 @@ h1{
     box-shadow: 0 0 30px #000000;
     opacity: .8;  
     text-align: center;
-}
+}*/
 /*------------------contact information------------*/
 .contact-container{
     display: grid;
@@ -219,6 +219,13 @@ form {
 .history-box{
     grid-template-columns: 1fr 1fr 1fr;
 }
+.city-history{
+    font-size:2em;
+}
+.history-P{
+    font-size:1.5em;
+}
+
 /*----------------contact us-----------------*/
 .column {
     width: 50%;

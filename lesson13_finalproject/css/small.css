@@ -194,7 +194,7 @@ h1{
     margin: 0 auto;
     max-width: 500px;
     padding:20px;
-    background: radial-gradient(#ffffff, #000000);
+    background: radial-gradient(#ffffff, #EBEBEB);
     text-align: center;
 }
 
@@ -819,9 +819,23 @@ table tr, td, th {
     text-align:center;
     
 }
+.photo-city img:hover{
+    cursor: pointer; 
+    box-shadow: 8px 8px 12px ;
+} 
+
 /*---------------------history-box-------------------*/
 .city-history{
+    padding:10px;
+    color:#FFA015;
+    text-shadow: 1px 1px 3px #000000;
     text-align: center;
+    font-size:1.2rem;
+
+}
+.city-history:hover{
+    color:#ffffff;
+    cursor: pointer;
 }
 .history-box{
     margin:auto;
@@ -833,12 +847,27 @@ table tr, td, th {
     gap: 10px;
     text-align: left;  
 }
+.history-box h3{
+    text-align: center;
+}
+.history-box h3:hover{
+    cursor: pointer;
+    color:#00A7EA;
+}
 .history-box div{
     border:1px solid #ffffff;
 }
 .history-box img{
     width:100%;
 }
-.history-box h3{
+.history-P{
+    color: #ffffff; 
+    text-shadow: 1px 1px 4px #000000;
+    margin-top:10px; 
+    font-size:1.2rem;
+    text-decoration: none;
     text-align: center;
+}
+.history-P:hover{
+    color:#00A7EA;
 }

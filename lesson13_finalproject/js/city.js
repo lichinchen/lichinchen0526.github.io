@@ -6,7 +6,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const towns = jsonObject['city'];
     function townName(town) {
-      if (town.name == "Indianapolis") {
+      if (town.name == "Indianapolis" || town.name == "Lafayette" || town.name == "Carmel") {
         return true;
       }
     };
@@ -15,6 +15,7 @@ fetch(requestURL)
     
     for (let i = 0; i < assignTowns.length; i++) {
       let card = document.createElement('section');
+      let photo = document.createElement('img');
       let name = document.createElement('p0');
       let year = document.createElement('p1');
       let population = document.createElement('p2');
@@ -28,7 +29,8 @@ fetch(requestURL)
       rainfall.textContent = "Annual Rain Fall: " + assignTowns[i].averageRainfall;
       snowfall.textContent = "Annual Snow Fall: " + assignTowns[i].averageSnowfall;
       sunnyday.textContent = "Annual Rain Fall: " + assignTowns[i].averageSunnyday;
-
+      
+      card.appendChild(photo);
       card.appendChild(name);
       card.appendChild(year);
       card.appendChild(population);
