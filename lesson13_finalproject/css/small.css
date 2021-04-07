@@ -834,9 +834,9 @@ table tr, td, th {
     width:100%;
     max-width: 1400px;
     background-color:#EBEBEB;
-    /*display: grid;
+    display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;*/
+    grid-gap: 10px;
     padding: 20px;
     margin: 0 auto;
     box-shadow: 0 0 30px 0;
@@ -881,7 +881,7 @@ table tr, td, th {
     text-shadow: 1px 1px 2px #000000;
 
 }
-/*
+
 @media only screen and (min-width: 35rem) {
     .cards {     
         width: 94%;    
@@ -893,7 +893,7 @@ table tr, td, th {
         margin: 0;
     }
 
-}*/
+}
 /*--------------------city-container----------------------*/
 .photo-city img{
     width:100%;
