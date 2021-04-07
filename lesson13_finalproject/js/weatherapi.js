@@ -59,10 +59,12 @@ fetch(apiURL)
         document.getElementById('curCon').textContent = jsObject.weather[0].main;
         document.getElementById('curTemp').textContent = jsObject.main.temp.toFixed(0);
         document.getElementById('humidity').textContent = jsObject.main.humidity;
-        /*document.getElementById('wAlert').textContent = jsObject.main.alert;*/
+       
     
 });
       
+
+
 
 
 

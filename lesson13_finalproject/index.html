@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project--Home Page of Chamber </title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Final Project The Chamber of Commerce Site Home Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -12,6 +13,10 @@
     <link rel="stylesheet" href="css/large.css">
   </head>
 <body>
+  <div class="weather-alert">
+    <p><span><i class="fa fa-close fa-spin fa-lg"></i> Special Weather Statement issued by NWS
+      ...A STRONG THUNDERSTORM WILL AFFECT NORTHEASTERN HARRISON... SOUTHWESTERN CLARK...FLOYD...SOUTHEASTERN WASHINGTON AND WEST CENTRAL JEFFERSON COUNTIES...</p> 
+  </div>
   
 <header>
     <div class="topheader">
@@ -49,7 +54,6 @@
         <div class="weatherbox">
           <div class="weather-summary">
           <h3>Weather Summary</h3>
-          <p>Weather Alert: <span id="wAlert"></span>Raining</p>
           <p>Currently: <span id="curCon"></span>Sunny</p>
           <p>Temperature: <span id="curTemp"></span> &#8457;</p>
           <p>Humidity: <span id="humidity"></span> %</p>

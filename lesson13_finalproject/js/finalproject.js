@@ -18,3 +18,16 @@ function toggleMenu() {
   
   /*-----web font-----*/
   WebFont.load({google: {families: ['Lato', 'Suez One', ]}});
+
+
+
+  /*------------------closeable alert----------------------*/
+  
+var closeBtn = document.getElementsByClassName("fa");
+var i;
+
+for (i = 0; i < closeBtn.length; i++) {
+  closeBtn[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}

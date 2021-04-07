@@ -369,6 +369,8 @@ footer a:hover{
 }
 
 
+
+
 .contact-info {
     padding: 0 0 10px 0;
     text-align: center;
@@ -768,6 +770,7 @@ table tr, td, th {
     border:1px solid #b1b1b1;
     text-align: center;
 }
+
 #btnContainer{
     max-width:960px;
     margin:auto;
@@ -780,6 +783,10 @@ table tr, td, th {
     padding: 10px;
     background-color:#ffffff;
   }
+.column:hover{
+    cursor: pointer;
+    background-color: #EBEBEB;
+}
 .row, .column{
     max-width:960px;
     margin:auto;
@@ -788,6 +795,9 @@ table tr, td, th {
 .column img{
     width:25%;
     height:50%;
+}
+.column img:hover{
+    box-shadow: 0 0 20px #000000;
 }
 .row:after {
     content: "";
@@ -941,4 +951,24 @@ table tr, td, th {
 }
 .history-P:hover{
     color:#00A7EA;
+}
+
+/*-----------------closeable alert-------------------*/
+
+.weather-alert{
+    box-sizing: border-box;
+    text-align: center;
+    background-color:#00A7EA;
+    color:#000000;
+    font-size:15px;
+    padding:10px;
+    display:block;
+}
+.weather-alert p:hover{
+    cursor: pointer;
+    font-size:16px;
+}
+.fa:hover{
+    cursor: pointer;
+    font-size:40px;
 }
