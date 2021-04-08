@@ -44,16 +44,12 @@ h1{
 .photo-hero .btn {
     position: absolute;
     top: 50%;
-    left: 40%;
-    font-size: 50px;
-    padding: 15px 30px;
-    /*transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);*/
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
   }
-  .photo-hero .btn:hover {
-    background-color: #000000;
-    color: #FFA015;
-  }
+  
 
 /*-------------------weatherbox-------------------*/
 .weatherbox {   

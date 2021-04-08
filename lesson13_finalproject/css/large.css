@@ -20,14 +20,11 @@ h1{
     -ms-transform: translate(-50%, -50%);
     background-color: #FFA015;
     color:#ffffff;
-    font-size: 100px;
-    padding: 16px 30px;
+    font-size: 80px;
+    
   }
-  .photo-hero .btn:hover {
-    background-color: #000000;
-    color: #FFA015;
-  }
-  @media only screen and (max-width: 76.56rem) {
+  
+  /*@media only screen and (max-width: 76.56rem) {
     .photo-hero .btn{
         position: absolute;
         top: 80%;
@@ -37,16 +34,16 @@ h1{
         background-color: #FFA015;
         color:#ffffff;
         font-size: 60px;
-        padding: 16px 30px;
+
   }
     
-  }
+  }*/
 /*------------------weather box---------------*/
 .weatherbox {
     width: 20%;
     position: absolute;
     top: 600px;
-    left: 100px;
+    left: 80px;
     background-color:#00A7EA;
     border: 1px solid #ffffff;
     padding: 10px;

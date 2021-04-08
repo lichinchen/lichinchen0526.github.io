@@ -90,23 +90,28 @@ h1{
 
 
 /*---------------join now------------*/
+
 .photo-hero .btn {
     position: absolute;
-    top: 50px;
+    top: 90px;
     right: 50px;
     background-color: #FFA015;
     color:#ffffff;
     font-size: 20px;
     padding: 5px 10px;
     border: none;
-    cursor: pointer;
     border-radius: 10px;
     text-align: center;
     border:3px groove #ffffff;
+   
+    
+
   }
+  
   .photo-hero .btn:hover {
     background-color: #000000;
     color: #FFA015;
+    cursor: pointer;
   }
   
 
