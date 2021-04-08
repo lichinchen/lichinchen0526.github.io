@@ -6,7 +6,7 @@ body {
 
 main{
     background-color:#EBEBEB;
-    max-width:auto;
+    
 }
 
 h1, h2, h3 {
@@ -32,7 +32,7 @@ header, main, footer, nav {
     text-align: center;
     padding: 15px;
     display: flex;
-	align-items:left;
+	
 	justify-content:flex-start;
 }
 .topheader picture img{
@@ -150,7 +150,6 @@ h1{
     text-align:center;
     padding:0.5rem;
     background-color:#000000;
-    border: 1px solid #000000;
     flex-direction: column;
 }
 
@@ -433,7 +432,6 @@ section {
      background-color:#EBEBEB;
      color:#000000;
      padding:20Px;
-     /*border: 2px solid #b1b1b1;*/
  } 
  .goal-container img{
      width:100%;
@@ -498,12 +496,10 @@ form label.top, form div {
     margin-top:10px;
     color: #000000;
     font-size: 1rem;
-    
 }
 
 
 form label.top input, form label.top textarea {
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: 1px solid #000000;
@@ -576,11 +572,7 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
-/*.more{
-    padding:5px;
-    background-color:#b1b1b1;
-    
-}*/
+
 .benefit{
     text-align: center;
     color: #b1b1b1;
@@ -833,10 +825,7 @@ table tr, td, th {
     box-shadow:none;
 }
 
-/*.cards h2{
-    color:#00A7EA;
-    text-shadow: 1px 1px 1px #000000;
-}*/
+
 .cardh1 h1{
     margin-top:20px;
     padding:20px 20px 20px 20px;
