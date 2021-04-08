@@ -588,15 +588,25 @@ form label.top input:required:valid {
 
 .benefit{
     text-align: center;
-    color: #b1b1b1;
-    text-shadow: 1px 1px 2px #000000;
+    color: #000000;
+    text-shadow: 1px 1px 2px #b1b1b1;
     font-size:1em;
+}
+.benefit:hover{
+    color:#ffffff;
+    text-shadow: 1px 1px 2px #000000;
+    cursor: pointer;
 }
 .mem-form{
     text-align: center;
-    color: #b1b1b1;
-    text-shadow: 1px 1px 2px #000000;
+    color: #000000;
+    text-shadow: 1px 1px 2px #b1b1b1;
     font-size:1em;
+}
+.mem-form:hover{
+    color:#ffffff;
+    text-shadow: 1px 1px 2px #000000;
+    cursor: pointer;
 }
 /*----------------confirm-container--------------------*/
 .confirm-container{
