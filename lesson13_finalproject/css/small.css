@@ -214,11 +214,15 @@ h1{
 
 .indybasic{
     text-align: center;
-    color:#FFA015;
-    text-shadow: 1px 1px 2px #000000;
+    color:#000000;
+    text-shadow: 1px 1px 2px #b1b1b1;
     font-size:1.5em;
 }
-
+.indybasic:hover{
+    color:#ffffff;
+    text-shadow: 1px 1px 2px #000000;
+    cursor: pointer;
+}
 /*---------------navigation-----------------*/ 
  
 nav{
@@ -869,14 +873,15 @@ table tr, td, th {
 /*---------------------history-box-------------------*/
 .city-history{
     padding:10px;
-    color:#FFA015;
-    text-shadow: 1px 1px 3px #000000;
+    color:#000000;
+    text-shadow: 1px 1px 3px #b1b1b1;
     text-align: center;
     font-size:1.2rem;
 
 }
 .city-history:hover{
     color:#ffffff;
+    text-shadow: 1px 1px 3px #000000;
     cursor: pointer;
 }
 .history-box{
@@ -903,8 +908,8 @@ table tr, td, th {
     width:100%;
 }
 .history-P{
-    color: #ffffff; 
-    text-shadow: 1px 1px 4px #000000;
+    color: #000000; 
+    text-shadow: 1px 1px 1px #b1b1b1;
     margin-top:10px; 
     font-size:1.2rem;
     text-decoration: none;
@@ -912,6 +917,8 @@ table tr, td, th {
 }
 .history-P:hover{
     color:#00A7EA;
+    text-shadow: 1px 1px 2px #000000;
+    cursor: pointer;
 }
 
 /*-----------------closeable alert-------------------*/
