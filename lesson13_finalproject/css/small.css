@@ -393,8 +393,8 @@ section {
   }
   
   section a {
-    color: #00A7EA; 
-    text-shadow: 1px 1px 2px #000000;
+    color: #000000; 
+    text-shadow: 1px 1px 1px #b1b1b1;
     margin-top:10px; 
     font-size:1.2rem;
     text-decoration: none;
@@ -403,6 +403,7 @@ section {
   
   section a:hover{
     color:#ffffff;
+    text-shadow: 1px 1px 2px #000000;
   }
   section p {
     padding:10px;
@@ -420,13 +421,14 @@ section {
 
   .local{
       padding:10px;
-      color:#00A7EA;
-      text-shadow: 1px 1px 3px #000000;
+      color:#000000;
+      text-shadow: 1px 1px 3px #b1b1b1;
       text-align: center;
       font-size:1.2rem;
   }
   .local:hover{
       color:#ffffff;
+      text-shadow: 1px 1px 3px #000000;
       cursor: pointer;
     }
   
@@ -451,12 +453,13 @@ section {
     text-align: center;
     font-size:1.2rem;
     padding:10px;
-    color:#00A7EA;
-    text-shadow: 1px 1px 3px #000000;
+    color:#000000;
+    text-shadow: 1px 1px 3px #b1b1b1;
 }
 .goal:hover{
     cursor: pointer;
     color:#ffffff;
+    text-shadow: 1px 1px 3px #000000;
 }
 .p1:hover{
     background-color:#b1b1b1;
