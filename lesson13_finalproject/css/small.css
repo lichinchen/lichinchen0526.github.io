@@ -711,18 +711,19 @@ table tr, td, th {
     font-size:1em;
 }
 .contact-us a{
-    color:#FFA015;
+    color:#000000;
     text-shadow: none;
     text-decoration: underline;
 }
 .contact-us h2{
-    color:#00A7EA;
+    color:#000000;
     text-align:center;
-    text-shadow: 1px 1px 2px #000000;
+    text-shadow: 1px 1px 2px #b1b1b1;
 }
 .contact-us h2:hover{
     cursor: pointer;
-    color:#FFA015;
+    color:#ffffff;
+    text-shadow: 1px 1px 2px #000000;
 }
 .contact-us p:hover{
     cursor: pointer;
