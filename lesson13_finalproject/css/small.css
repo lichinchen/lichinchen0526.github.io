@@ -95,8 +95,8 @@ h1{
     position: absolute;
     top: 120px;
     right: 50px;
-    background-color: #FFA015;
-    color:#ffffff;
+    background-color: #000000;
+    color:#FFA015;
     font-size: 20px;
     padding: 5px 10px;
     border: none;
@@ -106,13 +106,16 @@ h1{
   }
   
   .photo-hero .btn:hover {
-    background-color: #000000;
-    color: #FFA015;
+    background-color: #FFA015;
+    color: #000000;
     cursor: pointer;
   }
   .btn a{
       text-decoration: none;
-      color:#ffffff;
+      color:#FFA015;
+  }
+  .btn a:hover{
+      color:#000000;
   }
 
 /*---------------weatherbox-----------------*/
@@ -132,6 +135,9 @@ h1{
     padding: 10px;
     font-family:"Lato";
     color:#ffffff;
+ }
+ .weather-summary h2{
+     color:#ffffff;
  }
  .weatherbox:hover{
     cursor: pointer;
@@ -387,8 +393,8 @@ section {
   }
   
   section a {
-    color: #ffffff; 
-    text-shadow: 1px 1px 4px #000000;
+    color: #00A7EA; 
+    text-shadow: 1px 1px 2px #000000;
     margin-top:10px; 
     font-size:1.2rem;
     text-decoration: none;
@@ -396,7 +402,7 @@ section {
   }
   
   section a:hover{
-    color:#00A7EA;
+    color:#ffffff;
   }
   section p {
     padding:10px;
@@ -414,7 +420,7 @@ section {
 
   .local{
       padding:10px;
-      color:#FFA015;
+      color:#00A7EA;
       text-shadow: 1px 1px 3px #000000;
       text-align: center;
       font-size:1.2rem;
@@ -445,7 +451,7 @@ section {
     text-align: center;
     font-size:1.2rem;
     padding:10px;
-    color:#FFA015;
+    color:#00A7EA;
     text-shadow: 1px 1px 3px #000000;
 }
 .goal:hover{

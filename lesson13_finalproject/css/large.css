@@ -18,26 +18,10 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #FFA015;
-    color:#ffffff;
     font-size: 80px;
     
   }
   
-  /*@media only screen and (max-width: 76.56rem) {
-    .photo-hero .btn{
-        position: absolute;
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        background-color: #FFA015;
-        color:#ffffff;
-        font-size: 60px;
-
-  }
-    
-  }*/
 /*------------------weather box---------------*/
 .weatherbox {
     width: 20%;
