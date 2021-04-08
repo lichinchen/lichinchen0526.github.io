@@ -145,18 +145,19 @@ h1{
 
 /*------------------towns--------------------------*/
 /*.towns-box{
-    max-width: 40%;
-    max-width:100%;
     position: absolute;
-    bottom: 25px;
-    left: 25px;
-    background: radial-gradient(#ffffff, #000000);
-    border: 1px solid #ffffff;
-    padding: 1rem;
-    box-shadow: 0 0 30px #000000;
-    opacity: .8;  
-    text-align: center;
+    bottom: 30px;
+    left: 100px;
+    opacity: .6;  
+    background-color:#ffffff;
+   
 }*/
+.towns-box{
+    font-size:1.3em;
+}
+.indybasic{
+    font-size:2em;
+}
 /*------------------contact information------------*/
 .contact-container{
     display: grid;
