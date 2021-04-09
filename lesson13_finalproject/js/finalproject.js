@@ -23,7 +23,7 @@ function toggleMenu() {
 
   /*------------------closeable alert----------------------*/
   
-var closeBtn = document.getElementsByClassName("fa");
+var closeBtn = document.getElementsByClassName("fa fa-close fa-spin fa-lg");
 var i;
 
 for (i = 0; i < closeBtn.length; i++) {

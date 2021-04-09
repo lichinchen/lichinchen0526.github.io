@@ -64,7 +64,7 @@ function gridView() {
   }
 }
 
-/* Optional: Add active class to the current button (highlight it) */
+// Add active to the current button 
 var container = document.getElementById("btnContainer");
 var btns = container.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
