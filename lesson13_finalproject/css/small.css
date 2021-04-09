@@ -952,7 +952,7 @@ table tr, td, th {
     color:#000000;
     font-size:15px;
     padding:10px;
-    display:block;
+    
 }
 .weather-alert p:hover{
     cursor: pointer;
